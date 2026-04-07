@@ -1,263 +1,14 @@
 {
-  "timestamp": "2026-04-07T22:14:22.485739+00:00",
+  "timestamp": "2026-04-07T22:55:07.978685+00:00",
   "balance": {
-    "cash": 5.5,
-    "portfolio": 108.6
+    "cash": 3.8,
+    "portfolio": 112.96
   },
   "positions": [],
   "position_count": 0,
   "total_cash_locked": 0,
-  "resting_orders": [
-    {
-      "ticker": "KXNBAGAME-26APR08PORSAS-SAS",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR09BOSNYK-BOS",
-      "action": "sell",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXCPICORE-26MAR-T0.2",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXMLBGAME-26APR091335ATHNYY-NYY",
-      "action": "sell",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXCPICORE-26MAR-T0.2",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXGDP-26APR30-T1.5",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR08PORSAS-SAS",
-      "action": "sell",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXGDP-26APR30-T1.5",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXMLBGAME-26APR091910AZNYM-AZ",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXMLBGAME-26APR091910AZNYM-AZ",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR09CHIWAS-CHI",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR09CHIWAS-CHI",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR09BOSNYK-NYK",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR09BOSNYK-NYK",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNHLGAME-26APR08EDMSJ-EDM",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNHLGAME-26APR08EDMSJ-EDM",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR09MIATOR-MIA",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR09MIATOR-MIA",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXGDP-26APR30-T1.0",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXGDP-26APR30-T1.0",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNHLGAME-26APR08BUFNYR-BUF",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNHLGAME-26APR08BUFNYR-BUF",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNHLGAME-26APR07SEAMIN-SEA",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXMLBGAME-26APR081510HOUCOL-HOU",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNHLGAME-26APR07SEAMIN-SEA",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXMLBGAME-26APR081510HOUCOL-HOU",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXMLBGAME-26APR091210CINMIA-CIN",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXMLBGAME-26APR091210CINMIA-CIN",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR08ATLCLE-ATL",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR08ATLCLE-ATL",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR09BOSNYK-BOS",
-      "action": "buy",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    }
-  ],
-  "resting_order_count": 31,
+  "resting_orders": [],
+  "resting_order_count": 0,
   "recent_fills": [
     {
       "timestamp": "2026-04-07T20:53:16.748888Z",
@@ -402,34 +153,43 @@
       "size_usd": 1.32,
       "fill_pnl": 0.0,
       "category": "sports"
+    },
+    {
+      "timestamp": "2026-04-07T22:15:51.954364",
+      "market_id": "KXNBAGAME-26APR09BOSNYK-NYK",
+      "side": "sell",
+      "price": 0.44,
+      "size_usd": 1.68,
+      "fill_pnl": 0.0,
+      "category": "sports"
     }
   ],
   "fills_4h": {
-    "fills": 16,
+    "fills": 17,
     "buys": 5,
-    "sells": 11,
+    "sells": 12,
     "pnl": 0.0,
-    "fill_rate_per_hour": 4.0
+    "fill_rate_per_hour": 4.25
   },
   "fills_24h": {
-    "fills": 29,
+    "fills": 30,
     "buys": 16,
-    "sells": 13,
+    "sells": 14,
     "pnl": 0.0,
-    "fill_rate_per_hour": 1.21
+    "fill_rate_per_hour": 1.25
   },
   "fills_7d": {
-    "fills": 345,
-    "buys": 183,
-    "sells": 162,
+    "fills": 343,
+    "buys": 180,
+    "sells": 163,
     "pnl": 0.0,
-    "fill_rate_per_hour": 2.05
+    "fill_rate_per_hour": 2.04
   },
-  "fills_total": 387,
+  "fills_total": 388,
   "adverse": {
-    "total": 2268,
+    "total": 2255,
     "adverse": 511,
-    "rate": 22.5,
+    "rate": 22.7,
     "worst_market": "KXCPI-26MAR-T0.7",
     "worst_count": 67
   },
@@ -567,7 +327,7 @@
     },
     "target_series_count": 70
   },
-  "bot_uptime": "0h12m",
+  "bot_uptime": "0h36m",
   "errors_24h": 9,
-  "fills_based_position_count": 29
+  "fills_based_position_count": 30
 }
