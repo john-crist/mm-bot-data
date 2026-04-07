@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-06T22:55:13.101038+00:00",
+  "timestamp": "2026-04-07T02:55:09.456663+00:00",
   "balance": {
-    "cash": 25.88,
-    "portfolio": 87.63
+    "cash": 25.34,
+    "portfolio": 89.89
   },
   "positions": [
     {
@@ -18,7 +18,7 @@
       "paired_contracts": 7,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 234.3,
+      "age_hours": 238.3,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.97,
@@ -30,7 +30,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-10T12:25:00Z",
-      "hours_to_close": 85.5
+      "hours_to_close": 81.5
     },
     {
       "market_id": "KXGTEMP-27-P0",
@@ -45,19 +45,19 @@
       "paired_contracts": 69,
       "cash_locked": 19.83,
       "category": "",
-      "age_hours": 145.6,
+      "age_hours": 149.6,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.27,
       "yes_bid": 0.21,
-      "yes_ask": 0.27,
-      "no_bid": 0.73,
+      "yes_ask": 0.26,
+      "no_bid": 0.74,
       "no_ask": 0.79,
-      "midpoint": 0.24,
+      "midpoint": 0.235,
       "status": "active",
       "result": "",
       "close_time": "2027-01-01T04:59:00Z",
-      "hours_to_close": 6462.1
+      "hours_to_close": 6458.1
     },
     {
       "market_id": "KXWTIMAX-26DEC31-T115",
@@ -72,19 +72,19 @@
       "paired_contracts": 11,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 138.2,
+      "age_hours": 142.2,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.89,
-      "yes_bid": 0.88,
-      "yes_ask": 0.92,
-      "no_bid": 0.08,
-      "no_ask": 0.12,
-      "midpoint": 0.9,
+      "yes_bid": 0.92,
+      "yes_ask": 0.94,
+      "no_bid": 0.06,
+      "no_ask": 0.08,
+      "midpoint": 0.93,
       "status": "active",
       "result": "",
       "close_time": "2026-12-31T19:30:00Z",
-      "hours_to_close": 6452.6
+      "hours_to_close": 6448.6
     },
     {
       "market_id": "KXSOLMAXY-27JAN01-300",
@@ -99,19 +99,19 @@
       "paired_contracts": 36,
       "cash_locked": 7.48,
       "category": "",
-      "age_hours": 137.1,
+      "age_hours": 141.1,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.1,
-      "yes_bid": 0.06,
-      "yes_ask": 0.1,
-      "no_bid": 0.9,
-      "no_ask": 0.94,
-      "midpoint": 0.08,
+      "yes_bid": 0.07,
+      "yes_ask": 0.08,
+      "no_bid": 0.92,
+      "no_ask": 0.93,
+      "midpoint": 0.075,
       "status": "active",
       "result": "",
       "close_time": "2027-01-01T05:00:00Z",
-      "hours_to_close": 6462.1
+      "hours_to_close": 6458.1
     },
     {
       "market_id": "KXPCECORE-26AUG-T0.4",
@@ -126,7 +126,7 @@
       "paired_contracts": 43,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 137.9,
+      "age_hours": 141.9,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.07,
@@ -138,7 +138,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-09-30T12:25:00Z",
-      "hours_to_close": 4237.5
+      "hours_to_close": 4233.5
     },
     {
       "market_id": "KXINXMINY-01JAN2027-6200.01",
@@ -153,19 +153,19 @@
       "paired_contracts": 16,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 146.3,
+      "age_hours": 150.3,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.71,
-      "yes_bid": 0.695,
-      "yes_ask": 0.714,
-      "no_bid": 0.286,
-      "no_ask": 0.305,
-      "midpoint": 0.7045,
+      "yes_bid": 0.705,
+      "yes_ask": 0.729,
+      "no_bid": 0.271,
+      "no_ask": 0.295,
+      "midpoint": 0.717,
       "status": "active",
       "result": "",
       "close_time": "2027-01-01T11:00:00Z",
-      "hours_to_close": 6468.1
+      "hours_to_close": 6464.1
     },
     {
       "market_id": "KXINXMINY-01JAN2027-5900.01",
@@ -180,19 +180,19 @@
       "paired_contracts": 8,
       "cash_locked": 12.6,
       "category": "",
-      "age_hours": 223.0,
+      "age_hours": 227.0,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.57,
-      "yes_bid": 0.6,
-      "yes_ask": 0.65,
-      "no_bid": 0.35,
-      "no_ask": 0.4,
-      "midpoint": 0.625,
+      "yes_bid": 0.573,
+      "yes_ask": 0.63,
+      "no_bid": 0.37,
+      "no_ask": 0.427,
+      "midpoint": 0.6015,
       "status": "active",
       "result": "",
       "close_time": "2027-01-01T11:00:00Z",
-      "hours_to_close": 6468.1
+      "hours_to_close": 6464.1
     },
     {
       "market_id": "KXBTCMINY-27JAN01-55000.00",
@@ -207,19 +207,19 @@
       "paired_contracts": 8,
       "cash_locked": 9.78,
       "category": "",
-      "age_hours": 227.1,
+      "age_hours": 231.1,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.69,
       "yes_bid": 0.67,
-      "yes_ask": 0.68,
-      "no_bid": 0.32,
+      "yes_ask": 0.7,
+      "no_bid": 0.3,
       "no_ask": 0.33,
-      "midpoint": 0.675,
+      "midpoint": 0.685,
       "status": "active",
       "result": "",
       "close_time": "2027-01-01T05:00:00Z",
-      "hours_to_close": 6462.1
+      "hours_to_close": 6458.1
     },
     {
       "market_id": "KXNASDAQ100MAXY-26DEC31H1600-T26199.99",
@@ -234,19 +234,19 @@
       "paired_contracts": 0,
       "cash_locked": 4.85,
       "category": "",
-      "age_hours": 138.8,
+      "age_hours": 142.8,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.674,
-      "yes_bid": 0.667,
-      "yes_ask": 0.733,
-      "no_bid": 0.267,
-      "no_ask": 0.333,
-      "midpoint": 0.7,
+      "yes_bid": 0.682,
+      "yes_ask": 0.73,
+      "no_bid": 0.27,
+      "no_ask": 0.318,
+      "midpoint": 0.706,
       "status": "active",
       "result": "",
       "close_time": "2026-12-31T21:00:00Z",
-      "hours_to_close": 6454.1
+      "hours_to_close": 6450.1
     },
     {
       "market_id": "KXCPI-26APR-T0.5",
@@ -261,19 +261,19 @@
       "paired_contracts": 17,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 148.9,
+      "age_hours": 152.9,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.78,
-      "yes_bid": 0.77,
+      "yes_bid": 0.76,
       "yes_ask": 0.8,
       "no_bid": 0.2,
-      "no_ask": 0.23,
-      "midpoint": 0.785,
+      "no_ask": 0.24,
+      "midpoint": 0.78,
       "status": "active",
       "result": "",
       "close_time": "2026-05-12T12:25:00Z",
-      "hours_to_close": 853.5
+      "hours_to_close": 849.5
     },
     {
       "market_id": "KXINXMAXY-01JAN2027-7399.99",
@@ -288,19 +288,19 @@
       "paired_contracts": 28,
       "cash_locked": 17.62,
       "category": "",
-      "age_hours": 162.6,
+      "age_hours": 166.6,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.34,
-      "yes_bid": 0.33,
-      "yes_ask": 0.358,
-      "no_bid": 0.642,
-      "no_ask": 0.67,
-      "midpoint": 0.344,
+      "yes_bid": 0.311,
+      "yes_ask": 0.36,
+      "no_bid": 0.64,
+      "no_ask": 0.689,
+      "midpoint": 0.3355,
       "status": "active",
       "result": "",
       "close_time": "2027-01-01T11:00:00Z",
-      "hours_to_close": 6468.1
+      "hours_to_close": 6464.1
     },
     {
       "market_id": "KXWTIMAX-26DEC31-T125",
@@ -315,19 +315,19 @@
       "paired_contracts": 24,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 232.5,
+      "age_hours": 236.5,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.74,
-      "yes_bid": 0.719,
-      "yes_ask": 0.73,
-      "no_bid": 0.27,
-      "no_ask": 0.281,
-      "midpoint": 0.7245,
+      "yes_bid": 0.759,
+      "yes_ask": 0.76,
+      "no_bid": 0.24,
+      "no_ask": 0.241,
+      "midpoint": 0.7595,
       "status": "active",
       "result": "",
       "close_time": "2026-12-31T19:30:00Z",
-      "hours_to_close": 6452.6
+      "hours_to_close": 6448.6
     },
     {
       "market_id": "KXFEDDECISION-26JUN-H0",
@@ -342,7 +342,7 @@
       "paired_contracts": 3,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 235.3,
+      "age_hours": 239.3,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.91,
@@ -354,7 +354,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-06-17T17:59:00Z",
-      "hours_to_close": 1723.1
+      "hours_to_close": 1719.1
     },
     {
       "market_id": "KXCPI-26SEP-T0.1",
@@ -369,7 +369,7 @@
       "paired_contracts": 3,
       "cash_locked": 4.71,
       "category": "",
-      "age_hours": 142.4,
+      "age_hours": 146.4,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.68,
@@ -381,7 +381,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-10-14T12:25:00Z",
-      "hours_to_close": 4573.5
+      "hours_to_close": 4569.5
     },
     {
       "market_id": "KXCPI-26APR-T0.6",
@@ -396,7 +396,7 @@
       "paired_contracts": 20,
       "cash_locked": 7.41,
       "category": "",
-      "age_hours": 146.3,
+      "age_hours": 150.3,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.69,
@@ -408,7 +408,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-05-12T12:25:00Z",
-      "hours_to_close": 853.5
+      "hours_to_close": 849.5
     },
     {
       "market_id": "KXCPIYOY-26MAR-T3.0",
@@ -423,7 +423,7 @@
       "paired_contracts": 5,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 222.5,
+      "age_hours": 226.5,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.97,
@@ -435,7 +435,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-10T13:25:00Z",
-      "hours_to_close": 86.5
+      "hours_to_close": 82.5
     },
     {
       "market_id": "KXCPI-26OCT-T0.1",
@@ -450,7 +450,7 @@
       "paired_contracts": 5,
       "cash_locked": 4.18,
       "category": "",
-      "age_hours": 142.4,
+      "age_hours": 146.4,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.71,
@@ -462,7 +462,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-11-10T13:25:00Z",
-      "hours_to_close": 5222.5
+      "hours_to_close": 5218.5
     },
     {
       "market_id": "KXBTCMINY-27JAN01-40000.00",
@@ -477,7 +477,7 @@
       "paired_contracts": 17,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 234.5,
+      "age_hours": 238.5,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.32,
@@ -489,7 +489,7 @@
       "status": "active",
       "result": "",
       "close_time": "2027-01-01T05:00:00Z",
-      "hours_to_close": 6462.1
+      "hours_to_close": 6458.1
     },
     {
       "market_id": "KXINXMINY-01JAN2027-6000.01",
@@ -504,46 +504,46 @@
       "paired_contracts": 13,
       "cash_locked": 5.21,
       "category": "",
-      "age_hours": 138.2,
+      "age_hours": 142.2,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.64,
-      "yes_bid": 0.59,
+      "yes_bid": 0.6,
       "yes_ask": 0.85,
       "no_bid": 0.15,
-      "no_ask": 0.41,
-      "midpoint": 0.72,
+      "no_ask": 0.4,
+      "midpoint": 0.725,
       "status": "active",
       "result": "",
       "close_time": "2027-01-01T11:00:00Z",
-      "hours_to_close": 6468.1
+      "hours_to_close": 6464.1
     },
     {
       "market_id": "KXCPI-26APR-T0.7",
       "direction": "short",
-      "net_usd": 1.99,
-      "pnl": 0.0,
-      "fills": 18,
-      "buys": 9,
+      "net_usd": 1.46,
+      "pnl": 0.0053,
+      "fills": 19,
+      "buys": 10,
       "sells": 9,
-      "buy_contracts": 22,
+      "buy_contracts": 23,
       "sell_contracts": 25,
-      "paired_contracts": 22,
-      "cash_locked": 0.87,
+      "paired_contracts": 23,
+      "cash_locked": 0.34,
       "category": "",
-      "age_hours": 145.3,
+      "age_hours": 149.3,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
-      "last_price": 0.54,
-      "yes_bid": 0.53,
-      "yes_ask": 0.57,
-      "no_bid": 0.43,
-      "no_ask": 0.47,
-      "midpoint": 0.55,
+      "last_price": 0.53,
+      "yes_bid": 0.52,
+      "yes_ask": 0.53,
+      "no_bid": 0.47,
+      "no_ask": 0.48,
+      "midpoint": 0.525,
       "status": "active",
       "result": "",
       "close_time": "2026-05-12T12:25:00Z",
-      "hours_to_close": 853.5
+      "hours_to_close": 849.5
     },
     {
       "market_id": "KXCPIYOY-26APR-T3.7",
@@ -558,7 +558,7 @@
       "paired_contracts": 2,
       "cash_locked": 1.15,
       "category": "",
-      "age_hours": 149.2,
+      "age_hours": 153.2,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.72,
@@ -570,7 +570,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-05-12T12:29:00Z",
-      "hours_to_close": 853.6
+      "hours_to_close": 849.6
     },
     {
       "market_id": "KXCPICOREYOY-26APR-T2.8",
@@ -585,7 +585,7 @@
       "paired_contracts": 13,
       "cash_locked": 6.38,
       "category": "",
-      "age_hours": 136.5,
+      "age_hours": 140.5,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.32,
@@ -597,7 +597,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-05-12T12:25:00Z",
-      "hours_to_close": 853.5
+      "hours_to_close": 849.5
     },
     {
       "market_id": "KXNHLGAME-26APR02VANMIN-MIN",
@@ -612,7 +612,7 @@
       "paired_contracts": 2,
       "cash_locked": 0,
       "category": "",
-      "age_hours": 142.0,
+      "age_hours": 146.0,
       "has_closing_progress": true,
       "can_close_with_1_contract": true,
       "last_price": 0.77,
@@ -639,7 +639,7 @@
       "paired_contracts": 5,
       "cash_locked": 1.45,
       "category": "",
-      "age_hours": 145.5,
+      "age_hours": 149.5,
       "has_closing_progress": true,
       "can_close_with_1_contract": false,
       "last_price": 0.35,
@@ -666,7 +666,7 @@
       "paired_contracts": 5,
       "cash_locked": 0.35,
       "category": "",
-      "age_hours": 225.6,
+      "age_hours": 229.6,
       "has_closing_progress": true,
       "can_close_with_1_contract": false,
       "last_price": 0.44,
@@ -678,364 +678,49 @@
       "status": "active",
       "result": "",
       "close_time": "2027-01-01T05:00:00Z",
-      "hours_to_close": 6462.1
+      "hours_to_close": 6458.1
     }
   ],
   "position_count": 25,
-  "total_paired_contracts": 382,
-  "total_cash_locked": 103.87,
+  "total_paired_contracts": 383,
+  "total_cash_locked": 103.34,
   "recent_fills": [
     {
-      "timestamp": "2026-04-06T19:22:06.27171Z",
-      "market_id": "KXCPI-26MAR-T0.7",
-      "side": "sell",
-      "price": 0.97,
-      "size_usd": 58.2,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:22:06.328961Z",
-      "market_id": "KXCPICOREYOY-26APR-T2.8",
-      "side": "sell",
-      "price": 0.32,
-      "size_usd": 1.6,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:26:17.435178Z",
-      "market_id": "KXCPI-26APR-T0.5",
-      "side": "sell",
-      "price": 0.81,
-      "size_usd": 7.29,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:26:17.435178Z",
-      "market_id": "KXCPI-26APR-T0.5",
-      "side": "sell",
-      "price": 0.82,
-      "size_usd": 4.1,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:26:51.143091Z",
-      "market_id": "KXCPIYOY-26APR-T3.7",
-      "side": "sell",
-      "price": 0.72,
-      "size_usd": 1.44,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:27:15.360142Z",
-      "market_id": "KXGTEMP-27-P0",
-      "side": "sell",
-      "price": 0.27,
-      "size_usd": 11.88,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:27:15.403113Z",
-      "market_id": "KXCPI-26APR-T0.6",
-      "side": "sell",
-      "price": 0.67,
-      "size_usd": 2.68,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:27:16.788072Z",
-      "market_id": "KXCPI-26APR-T0.7",
-      "side": "sell",
-      "price": 0.57,
-      "size_usd": 2.85,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:27:17.063746Z",
-      "market_id": "KXCPI-26APR-T0.7",
-      "side": "sell",
-      "price": 0.57,
-      "size_usd": 2.85,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:27:17.339534Z",
-      "market_id": "KXCPI-26APR-T0.7",
-      "side": "sell",
-      "price": 0.57,
-      "size_usd": 1.14,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:27:17.974761Z",
-      "market_id": "KXBTCMINY-27JAN01-40000.00",
-      "side": "sell",
-      "price": 0.32,
-      "size_usd": 0.64,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:27:18.530678Z",
-      "market_id": "KXBTCMINY-27JAN01-45000.00",
-      "side": "sell",
-      "price": 0.44,
-      "size_usd": 0.88,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:27:40.268056Z",
-      "market_id": "KXPCECORE-26AUG-T0.4",
-      "side": "buy",
-      "price": 0.07,
-      "size_usd": 25.11,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:02.190661Z",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "sell",
-      "price": 0.924,
-      "size_usd": 3.7,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:02.190661Z",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "sell",
-      "price": 0.923,
-      "size_usd": 0.92,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:02.190661Z",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "sell",
-      "price": 0.924,
-      "size_usd": 12.94,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:02.190661Z",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "sell",
-      "price": 0.924,
-      "size_usd": 4.62,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:02.190661Z",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "sell",
-      "price": 0.923,
-      "size_usd": 1.85,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:02.190661Z",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "sell",
-      "price": 0.923,
-      "size_usd": 0.92,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:02.190661Z",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "sell",
-      "price": 0.924,
-      "size_usd": 4.62,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:02.190661Z",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "sell",
-      "price": 0.924,
-      "size_usd": 0.92,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:02.190661Z",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "sell",
-      "price": 0.924,
-      "size_usd": 16.63,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:15.959201Z",
-      "market_id": "KXWTIMAX-26DEC31-T125",
-      "side": "sell",
-      "price": 0.758,
-      "size_usd": 2.27,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:15.959201Z",
-      "market_id": "KXWTIMAX-26DEC31-T125",
-      "side": "sell",
-      "price": 0.74,
-      "size_usd": 5.92,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:28:38.090928Z",
-      "market_id": "KXSOLMAXY-27JAN01-300",
-      "side": "sell",
-      "price": 0.1,
-      "size_usd": 0.8,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:37:36.439733Z",
+      "timestamp": "2026-04-07T01:03:07.120492",
       "market_id": "KXCPI-26APR-T0.7",
       "side": "buy",
-      "price": 0.56,
-      "size_usd": 2.24,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T19:44:02.15057Z",
-      "market_id": "KXCPI-26APR-T0.7",
-      "side": "buy",
-      "price": 0.54,
-      "size_usd": 2.7,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T20:11:00.086653+00:00",
-      "market_id": "KXNBAGAME-26APR02LALOKC-OKC",
-      "side": "sell",
-      "price": 1.0,
-      "size_usd": 0.8,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T20:11:00.086653+00:00",
-      "market_id": "KXNBAGAME-26APR02SASLAC-SAS",
-      "side": "sell",
-      "price": 1.0,
-      "size_usd": 0.45,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T20:11:00.086653+00:00",
-      "market_id": "KXNHLGAME-26APR02UTASEA-UTA",
-      "side": "sell",
-      "price": 1.0,
-      "size_usd": 3.03,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T20:11:00.086653+00:00",
-      "market_id": "KXNHLGAME-26APR02WPGDAL-DAL",
-      "side": "sell",
-      "price": 1.0,
-      "size_usd": 1.81,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T20:46:26.935077",
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "side": "buy",
-      "price": 0.89,
-      "size_usd": 3.56,
-      "fill_pnl": 0.121,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T21:09:46.240541",
-      "market_id": "KXCPI-26APR-T0.6",
-      "side": "sell",
-      "price": 0.69,
-      "size_usd": 1.24,
-      "fill_pnl": 0.0248,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T21:10:04.899566",
-      "market_id": "KXCPI-26APR-T0.5",
-      "side": "buy",
-      "price": 0.78,
-      "size_usd": 0.78,
-      "fill_pnl": 0.0312,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T21:35:35.474492",
-      "market_id": "KXINXMINY-01JAN2027-6200.01",
-      "side": "buy",
-      "price": 0.71,
-      "size_usd": 5.68,
-      "fill_pnl": 0.2215,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-06T21:40:47.250981",
-      "market_id": "KXINXMINY-01JAN2027-6000.01",
-      "side": "sell",
-      "price": 0.64,
-      "size_usd": 2.16,
-      "fill_pnl": -0.1296,
+      "price": 0.53,
+      "size_usd": 0.53,
+      "fill_pnl": 0.0053,
       "category": ""
     }
   ],
   "fills_4h": {
-    "fills": 36,
-    "buys": 6,
-    "sells": 30,
-    "pnl": 0.2689,
-    "fill_rate_per_hour": 9.0
+    "fills": 1,
+    "buys": 1,
+    "sells": 0,
+    "pnl": 0.0053,
+    "fill_rate_per_hour": 0.25
   },
   "fills_24h": {
     "fills": 37,
     "buys": 7,
     "sells": 30,
-    "pnl": 0.2689,
+    "pnl": 0.2742,
     "fill_rate_per_hour": 1.54
   },
   "fills_7d": {
-    "fills": 337,
-    "buys": 173,
+    "fills": 338,
+    "buys": 174,
     "sells": 164,
-    "pnl": 0.2689,
+    "pnl": 0.2742,
     "fill_rate_per_hour": 2.01
   },
-  "fills_total": 362,
+  "fills_total": 363,
   "adverse": {
-    "total": 2829,
-    "adverse": 520,
-    "rate": 18.4,
+    "total": 2760,
+    "adverse": 521,
+    "rate": 18.9,
     "worst_market": "KXCPI-26MAR-T0.7",
     "worst_count": 68
   },
@@ -1066,7 +751,7 @@
     },
     {
       "market_id": "KXCPI-26APR-T0.7",
-      "adverse_count": 28
+      "adverse_count": 29
     },
     {
       "market_id": "KXWTIMAX-26DEC31-T115",
@@ -1181,7 +866,7 @@
     },
     "target_series_count": 70
   },
-  "resting_orders": 12,
-  "bot_uptime": "2h44m",
+  "resting_orders": 9,
+  "bot_uptime": "3h51m",
   "errors_24h": 0
 }
