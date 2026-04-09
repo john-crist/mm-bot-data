@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-09T03:19:17.441635+00:00",
+  "timestamp": "2026-04-09T06:55:06.014848+00:00",
   "balance": {
-    "cash": 72.76,
-    "portfolio": 25.21
+    "cash": 59.79,
+    "portfolio": 32.37
   },
   "positions": [
     {
@@ -19,7 +19,23 @@
       "status": "active",
       "result": "",
       "close_time": "2026-06-17T17:59:00Z",
-      "hours_to_close": 1670.7
+      "hours_to_close": 1667.1
+    },
+    {
+      "market_id": "KXHIGHNY-26APR09-T53",
+      "direction": "no",
+      "contracts": 10,
+      "cash_locked": 6.0,
+      "close_action": "sell no",
+      "yes_bid": 0.39,
+      "yes_ask": 0.41,
+      "no_bid": 0.59,
+      "no_ask": 0.61,
+      "midpoint": 0.4,
+      "status": "active",
+      "result": "",
+      "close_time": "2026-04-10T04:59:00Z",
+      "hours_to_close": 22.1
     },
     {
       "market_id": "KXCPIYOY-26MAR-T3.0",
@@ -35,39 +51,55 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-10T13:25:00Z",
-      "hours_to_close": 34.1
+      "hours_to_close": 30.5
     },
     {
       "market_id": "KXNBAGAME-26APR09LALGSW-LAL",
       "direction": "no",
       "contracts": 6,
-      "cash_locked": 3.84,
+      "cash_locked": 3.78,
       "close_action": "sell no",
-      "yes_bid": 0.35,
-      "yes_ask": 0.37,
-      "no_bid": 0.63,
-      "no_ask": 0.65,
-      "midpoint": 0.36,
+      "yes_bid": 0.36,
+      "yes_ask": 0.38,
+      "no_bid": 0.62,
+      "no_ask": 0.64,
+      "midpoint": 0.37,
       "status": "active",
       "result": "",
       "close_time": "2026-04-24T02:00:00Z",
-      "hours_to_close": 358.7
+      "hours_to_close": 355.1
+    },
+    {
+      "market_id": "KXNBAGAME-26APR10NOPBOS-NOP",
+      "direction": "no",
+      "contracts": 4,
+      "cash_locked": 3.48,
+      "close_action": "sell no",
+      "yes_bid": 0.11,
+      "yes_ask": 0.15,
+      "no_bid": 0.85,
+      "no_ask": 0.89,
+      "midpoint": 0.13,
+      "status": "active",
+      "result": "",
+      "close_time": "2026-04-24T23:30:00Z",
+      "hours_to_close": 376.6
     },
     {
       "market_id": "KXNBAGAME-26APR09LALGSW-GSW",
       "direction": "no",
       "contracts": 7,
-      "cash_locked": 2.52,
+      "cash_locked": 2.59,
       "close_action": "sell no",
-      "yes_bid": 0.63,
-      "yes_ask": 0.65,
-      "no_bid": 0.35,
-      "no_ask": 0.37,
-      "midpoint": 0.64,
+      "yes_bid": 0.62,
+      "yes_ask": 0.64,
+      "no_bid": 0.36,
+      "no_ask": 0.38,
+      "midpoint": 0.63,
       "status": "active",
       "result": "",
       "close_time": "2026-04-24T02:00:00Z",
-      "hours_to_close": 358.7
+      "hours_to_close": 355.1
     },
     {
       "market_id": "KXCPI-26MAR-T0.7",
@@ -83,42 +115,42 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-10T12:25:00Z",
-      "hours_to_close": 33.1
+      "hours_to_close": 29.5
     },
     {
-      "market_id": "KXNBAGAME-26APR10DETCHA-DET",
-      "direction": "no",
-      "contracts": 3,
-      "cash_locked": 1.72,
-      "close_action": "sell no",
-      "yes_bid": 0.4,
-      "yes_ask": 0.45,
-      "no_bid": 0.55,
-      "no_ask": 0.6,
-      "midpoint": 0.425,
+      "market_id": "KXHIGHTSEA-26APR09-T63",
+      "direction": "yes",
+      "contracts": 50,
+      "cash_locked": 1.75,
+      "close_action": "sell yes",
+      "yes_bid": 0.03,
+      "yes_ask": 0.04,
+      "no_bid": 0.96,
+      "no_ask": 0.97,
+      "midpoint": 0.035,
       "status": "active",
       "result": "",
-      "close_time": "2026-04-24T23:00:00Z",
-      "hours_to_close": 379.7
+      "close_time": "2026-04-10T08:00:00Z",
+      "hours_to_close": 25.1
     },
     {
       "market_id": "KXMLBGAME-26APR101915CLEATL-ATL",
       "direction": "no",
       "contracts": 3,
-      "cash_locked": 1.16,
+      "cash_locked": 1.19,
       "close_action": "sell no",
-      "yes_bid": 0.6,
+      "yes_bid": 0.58,
       "yes_ask": 0.63,
       "no_bid": 0.37,
-      "no_ask": 0.4,
-      "midpoint": 0.615,
+      "no_ask": 0.42,
+      "midpoint": 0.605,
       "status": "active",
       "result": "",
       "close_time": "2026-04-13T14:00:00Z",
-      "hours_to_close": 106.7
+      "hours_to_close": 103.1
     },
     {
-      "market_id": "KXNBAGAME-26APR10NOPBOS-NOP",
+      "market_id": "KXHIGHPHIL-26APR09-T59",
       "direction": "yes",
       "contracts": 8,
       "cash_locked": 1.0,
@@ -130,24 +162,8 @@
       "midpoint": 0.125,
       "status": "active",
       "result": "",
-      "close_time": "2026-04-24T23:30:00Z",
-      "hours_to_close": 380.2
-    },
-    {
-      "market_id": "KXNBAGAME-26APR10DETCHA-CHA",
-      "direction": "yes",
-      "contracts": 1,
-      "cash_locked": 0.6,
-      "close_action": "sell yes",
-      "yes_bid": 0.58,
-      "yes_ask": 0.63,
-      "no_bid": 0.37,
-      "no_ask": 0.42,
-      "midpoint": 0.605,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-24T23:00:00Z",
-      "hours_to_close": 379.7
+      "close_time": "2026-04-10T04:59:00Z",
+      "hours_to_close": 22.1
     },
     {
       "market_id": "KXNBAGAME-26APR10NOPBOS-BOS",
@@ -163,30 +179,38 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-24T23:30:00Z",
-      "hours_to_close": 380.2
+      "hours_to_close": 376.6
+    },
+    {
+      "market_id": "KXHIGHTBOS-26APR09-T53",
+      "direction": "yes",
+      "contracts": 2,
+      "cash_locked": 0.29,
+      "close_action": "sell yes",
+      "yes_bid": 0.14,
+      "yes_ask": 0.15,
+      "no_bid": 0.85,
+      "no_ask": 0.86,
+      "midpoint": 0.145,
+      "status": "active",
+      "result": "",
+      "close_time": "2026-04-10T05:00:00Z",
+      "hours_to_close": 22.1
     }
   ],
-  "position_count": 10,
-  "total_cash_locked": 23.67,
+  "position_count": 12,
+  "total_cash_locked": 32.91,
   "resting_orders": [
     {
-      "ticker": "KXNBAGAME-26APR10DETCHA-CHA",
-      "action": "buy",
+      "ticker": "KXNBAGAME-26APR10NOPBOS-NOP",
+      "action": "sell",
       "side": "no",
       "remaining_count": 0,
       "yes_price": 0,
       "no_price": 0
     },
     {
-      "ticker": "KXNBAGAME-26APR10DETCHA-CHA",
-      "action": "buy",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR10DETCHA-DET",
+      "ticker": "KXNBAGAME-26APR09LALGSW-GSW",
       "action": "sell",
       "side": "no",
       "remaining_count": 0,
@@ -210,22 +234,6 @@
       "no_price": 0
     },
     {
-      "ticker": "KXNBAGAME-26APR09LALGSW-GSW",
-      "action": "sell",
-      "side": "no",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
-      "ticker": "KXNBAGAME-26APR10NOPBOS-NOP",
-      "action": "sell",
-      "side": "yes",
-      "remaining_count": 0,
-      "yes_price": 0,
-      "no_price": 0
-    },
-    {
       "ticker": "KXNBAGAME-26APR09LALGSW-LAL",
       "action": "sell",
       "side": "no",
@@ -234,575 +242,8 @@
       "no_price": 0
     }
   ],
-  "resting_order_count": 8,
+  "resting_order_count": 5,
   "recent_fills": [
-    {
-      "timestamp": "2026-04-08T23:49:53.176856",
-      "market_id": "KXNHLGAME-26APR08BUFNYR-NYR",
-      "side": "buy",
-      "price": 0.26,
-      "size_usd": 1.82,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:50:18.382519",
-      "market_id": "KXNHLGAME-26APR08BUFNYR-BUF",
-      "side": "sell",
-      "price": 0.74,
-      "size_usd": 1.82,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:50:47.115866",
-      "market_id": "KXNHLGAME-26APR08BUFNYR-NYR",
-      "side": "buy",
-      "price": 0.28,
-      "size_usd": 5.04,
-      "fill_pnl": 0.14,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:50:47.174618",
-      "market_id": "KXMLBGAME-26APR081840CHCTB-CHC",
-      "side": "sell",
-      "price": 0.72,
-      "size_usd": 1.96,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:50:47.237158",
-      "market_id": "KXNBAGAME-26APR10CLEATL-ATL",
-      "side": "sell",
-      "price": 0.54,
-      "size_usd": 1.84,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:51:12.083248",
-      "market_id": "KXMLBGAME-26APR081840CHCTB-CHC",
-      "side": "sell",
-      "price": 0.83,
-      "size_usd": 1.87,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:51:12.140486",
-      "market_id": "KXNHLGAME-26APR08BUFNYR-BUF",
-      "side": "sell",
-      "price": 0.72,
-      "size_usd": 5.04,
-      "fill_pnl": 0.14,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:51:12.204477",
-      "market_id": "KXMLBGAME-26APR081840CHCTB-TB",
-      "side": "sell",
-      "price": 0.22,
-      "size_usd": 1.56,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:51:39.725615",
-      "market_id": "KXMLBGAME-26APR081840CHCTB-TB",
-      "side": "sell",
-      "price": 0.12,
-      "size_usd": 0.24,
-      "fill_pnl": 0.2,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:51:39.725930",
-      "market_id": "KXNBAGAME-26APR10CLEATL-ATL",
-      "side": "sell",
-      "price": 0.55,
-      "size_usd": 1.8,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:52:42.516898",
-      "market_id": "KXNBAGAME-26APR09LALGSW-LAL",
-      "side": "sell",
-      "price": 0.34,
-      "size_usd": 1.98,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:53:53.012425",
-      "market_id": "KXMLBGAME-26APR081840CHCTB-CHC",
-      "side": "sell",
-      "price": 0.88,
-      "size_usd": 14.96,
-      "fill_pnl": -1.5772,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:55:57.593191",
-      "market_id": "KXNBAGAME-26APR09LALGSW-GSW",
-      "side": "buy",
-      "price": 0.68,
-      "size_usd": 1.36,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:55:57.652009",
-      "market_id": "KXNBAGAME-26APR09LALGSW-LAL",
-      "side": "sell",
-      "price": 0.34,
-      "size_usd": 1.98,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:56:52.969266",
-      "market_id": "KXNBAGAME-26APR10CLEATL-CLE",
-      "side": "buy",
-      "price": 0.39,
-      "size_usd": 1.95,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:58:40.537937",
-      "market_id": "KXMLBGAME-26APR102140HOUSEA-SEA",
-      "side": "sell",
-      "price": 0.57,
-      "size_usd": 1.72,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:59:17.440664",
-      "market_id": "KXNBAGAME-26APR09LALGSW-GSW",
-      "side": "buy",
-      "price": 0.68,
-      "size_usd": 0.64,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-08T23:59:36.095466",
-      "market_id": "KXNBAGAME-26APR10CLEATL-CLE",
-      "side": "buy",
-      "price": 0.42,
-      "size_usd": 2.9,
-      "fill_pnl": 0.15,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:00:51.411953",
-      "market_id": "KXMLBGAME-26APR102140HOUSEA-SEA",
-      "side": "sell",
-      "price": 0.55,
-      "size_usd": 2.2,
-      "fill_pnl": 0.08,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:01:00.053996",
-      "market_id": "KXMLBGAME-26APR081905ATHNYY-NYY",
-      "side": "sell",
-      "price": 0.86,
-      "size_usd": 0.28,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:01:46.230303",
-      "market_id": "KXMLBGAME-26APR081905ATHNYY-NYY",
-      "side": "sell",
-      "price": 0.84,
-      "size_usd": 1.68,
-      "fill_pnl": 0.04,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:01:57.093369",
-      "market_id": "KXNBAGAME-26APR08MINORL-MIN",
-      "side": "buy",
-      "price": 0.16,
-      "size_usd": 0.16,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:02:40.643729",
-      "market_id": "KXNBAGAME-26APR08MINORL-MIN",
-      "side": "buy",
-      "price": 0.14,
-      "size_usd": 1.96,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:02:40.703413",
-      "market_id": "KXNHLGAME-26APR08WSHTOR-TOR",
-      "side": "sell",
-      "price": 0.42,
-      "size_usd": 1.74,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:03:09.127684",
-      "market_id": "KXMLBGAME-26APR102210TEXLAD-TEX",
-      "side": "sell",
-      "price": 0.35,
-      "size_usd": 1.95,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:03:09.185314",
-      "market_id": "KXNHLGAME-26APR08WSHTOR-TOR",
-      "side": "sell",
-      "price": 0.43,
-      "size_usd": 1.29,
-      "fill_pnl": -0.03,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:03:09.185744",
-      "market_id": "KXNHLGAME-26APR08WSHTOR-WSH",
-      "side": "buy",
-      "price": 0.59,
-      "size_usd": 1.77,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:03:17.480559",
-      "market_id": "KXMLBGAME-26APR102210TEXLAD-TEX",
-      "side": "sell",
-      "price": 0.32,
-      "size_usd": 0.96,
-      "fill_pnl": 0.09,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:04:00.943293",
-      "market_id": "KXNBAGAME-26APR09LALGSW-GSW",
-      "side": "sell",
-      "price": 0.69,
-      "size_usd": 1.55,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:04:28.077413",
-      "market_id": "KXMLBGAME-26APR102210TEXLAD-LAD",
-      "side": "buy",
-      "price": 0.67,
-      "size_usd": 1.34,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:06:06.821390",
-      "market_id": "KXNHLGAME-26APR08WSHTOR-WSH",
-      "side": "buy",
-      "price": 0.59,
-      "size_usd": 1.23,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T00:09:07.924830",
-      "market_id": "KXMLBGAME-26APR102210TEXLAD-LAD",
-      "side": "buy",
-      "price": 0.68,
-      "size_usd": 0.64,
-      "fill_pnl": 0.02,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:09:26.379562",
-      "market_id": "KXMLBGAME-26APR081905ATHNYY-NYY",
-      "side": "sell",
-      "price": 0.86,
-      "size_usd": 10.32,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T00:09:50.273470",
-      "market_id": "KXNBAGAME-26APR09LALGSW-GSW",
-      "side": "sell",
-      "price": 0.66,
-      "size_usd": 3.3,
-      "fill_pnl": 0.15,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:21:43.648750",
-      "market_id": "KXMLBGAME-26APR081840CHCTB-TB",
-      "side": "buy",
-      "price": 0.05,
-      "size_usd": 10.45,
-      "fill_pnl": -1.31,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T00:26:20.252075",
-      "market_id": "KXNHLGAME-26APR08BUFNYR-NYR",
-      "side": "sell",
-      "price": 0.47,
-      "size_usd": 0.53,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:27:14.202823",
-      "market_id": "KXNHLGAME-26APR08BUFNYR-NYR",
-      "side": "sell",
-      "price": 0.45,
-      "size_usd": 0.45,
-      "fill_pnl": 0.02,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:28:25.497169",
-      "market_id": "KXNBAGAME-26APR08MINORL-MIN",
-      "side": "buy",
-      "price": 0.1,
-      "size_usd": 2.0,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T00:28:25.554793",
-      "market_id": "KXNHLGAME-26APR08BUFNYR-NYR",
-      "side": "sell",
-      "price": 0.47,
-      "size_usd": 1.06,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:28:34.067486",
-      "market_id": "KXMLBGAME-26APR081940DETMIN-MIN",
-      "side": "sell",
-      "price": 0.94,
-      "size_usd": 0.3,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:29:00.065420",
-      "market_id": "KXNHLGAME-26APR08BUFNYR-NYR",
-      "side": "sell",
-      "price": 0.47,
-      "size_usd": 0.53,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:31:02.338632",
-      "market_id": "KXNHLGAME-26APR08BUFNYR-NYR",
-      "side": "sell",
-      "price": 0.43,
-      "size_usd": 0.43,
-      "fill_pnl": 0.04,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:31:28.422555",
-      "market_id": "KXMLBGAME-26APR102140HOUSEA-SEA",
-      "side": "sell",
-      "price": 0.56,
-      "size_usd": 1.76,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:35:22.744552",
-      "market_id": "KXMLBGAME-26APR081840CHCTB-CHC",
-      "side": "buy",
-      "price": 0.98,
-      "size_usd": 0.14,
-      "fill_pnl": 0.7,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T00:38:22.359006",
-      "market_id": "KXNBAGAME-26APR08PORSAS-SAS",
-      "side": "sell",
-      "price": 0.6,
-      "size_usd": 1.8,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:38:45.696470",
-      "market_id": "KXMLBGAME-26APR091335ATHNYY-ATH",
-      "side": "sell",
-      "price": 0.36,
-      "size_usd": 1.08,
-      "fill_pnl": 0.03,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:51:43.271478",
-      "market_id": "KXNBAGAME-26APR10CLEATL-ATL",
-      "side": "sell",
-      "price": 0.58,
-      "size_usd": 1.74,
-      "fill_pnl": -0.105,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:58:33.339430",
-      "market_id": "KXNBAGAME-26APR09BOSNYK-BOS",
-      "side": "sell",
-      "price": 0.44,
-      "size_usd": 1.68,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T00:59:25.996164",
-      "market_id": "KXMLBGAME-26APR081840CINMIA-MIA",
-      "side": "buy",
-      "price": 0.88,
-      "size_usd": 1.76,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T01:00:16.836372",
-      "market_id": "KXMLBGAME-26APR081840CINMIA-MIA",
-      "side": "buy",
-      "price": 0.91,
-      "size_usd": 0.18,
-      "fill_pnl": 0.06,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T01:07:05.614387",
-      "market_id": "KXNBAGAME-26APR09LALGSW-GSW",
-      "side": "sell",
-      "price": 0.67,
-      "size_usd": 1.98,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T01:07:38.447949",
-      "market_id": "KXMLBGAME-26APR081940DETMIN-MIN",
-      "side": "sell",
-      "price": 0.97,
-      "size_usd": 2.91,
-      "fill_pnl": -0.09,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T01:09:17.561473",
-      "market_id": "KXNBAGAME-26APR09LALGSW-GSW",
-      "side": "sell",
-      "price": 0.65,
-      "size_usd": 3.9,
-      "fill_pnl": 0.12,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T01:10:09.387173",
-      "market_id": "KXMLBGAME-26APR101915CLEATL-ATL",
-      "side": "sell",
-      "price": 0.63,
-      "size_usd": 1.11,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T01:12:28.681848",
-      "market_id": "KXMLBGAME-26APR081940DETMIN-MIN",
-      "side": "sell",
-      "price": 0.94,
-      "size_usd": 28.2,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T01:12:47.660237",
-      "market_id": "KXNBAGAME-26APR10CLEATL-ATL",
-      "side": "sell",
-      "price": 0.57,
-      "size_usd": 2.85,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T01:13:12.244009",
-      "market_id": "KXNBAGAME-26APR10NOPBOS-BOS",
-      "side": "sell",
-      "price": 0.88,
-      "size_usd": 1.92,
-      "fill_pnl": 0.0,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T01:13:21.153599",
-      "market_id": "KXNBAGAME-26APR10NOPBOS-BOS",
-      "side": "sell",
-      "price": 0.87,
-      "size_usd": 9.57,
-      "fill_pnl": 0.11,
-      "category": "sports"
-    },
-    {
-      "timestamp": "2026-04-09T01:31:58.849357",
-      "market_id": "KXMLBGAME-26APR081940DETMIN-MIN",
-      "side": "buy",
-      "price": 0.98,
-      "size_usd": 0.22,
-      "fill_pnl": 0.44,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T01:44:21.609004",
-      "market_id": "KXNBAGAME-26APR10CLEATL-ATL",
-      "side": "buy",
-      "price": 0.62,
-      "size_usd": 1.9,
-      "fill_pnl": 0.25,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T01:55:54.257868",
-      "market_id": "KXNBAGAME-26APR09LALGSW-GSW",
-      "side": "sell",
-      "price": 0.66,
-      "size_usd": 1.7,
-      "fill_pnl": 0.0,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T02:27:58.933433",
-      "market_id": "KXNBAGAME-26APR10DETCHA-CHA",
-      "side": "sell",
-      "price": 0.6,
-      "size_usd": 2.4,
-      "fill_pnl": 0.2,
-      "category": ""
-    },
-    {
-      "timestamp": "2026-04-09T02:29:52.188329",
-      "market_id": "KXNBAGAME-26APR09BOSNYK-BOS",
-      "side": "sell",
-      "price": 0.42,
-      "size_usd": 1.26,
-      "fill_pnl": 0.06,
-      "category": ""
-    },
     {
       "timestamp": "2026-04-09T03:18:50.423545",
       "market_id": "KXNBAGAME-26APR10DETCHA-CHA",
@@ -811,34 +252,124 @@
       "size_usd": 0.6,
       "fill_pnl": 0.05,
       "category": ""
+    },
+    {
+      "timestamp": "2026-04-09T03:25:24.119497",
+      "market_id": "KXNBAGAME-26APR10DETCHA-DET",
+      "side": "sell",
+      "price": 0.46,
+      "size_usd": 0.46,
+      "fill_pnl": -0.06,
+      "category": ""
+    },
+    {
+      "timestamp": "2026-04-09T03:41:06.910229",
+      "market_id": "KXHIGHNY-26APR09-T53",
+      "side": "sell",
+      "price": 0.41,
+      "size_usd": 1.18,
+      "fill_pnl": 0.0,
+      "category": "weather"
+    },
+    {
+      "timestamp": "2026-04-09T03:41:08.956101",
+      "market_id": "KXHIGHTBOS-26APR09-T53",
+      "side": "buy",
+      "price": 0.43,
+      "size_usd": 0.86,
+      "fill_pnl": 0.0,
+      "category": "weather"
+    },
+    {
+      "timestamp": "2026-04-09T03:41:39.850599",
+      "market_id": "KXHIGHNY-26APR09-T53",
+      "side": "sell",
+      "price": 0.4,
+      "size_usd": 3.0,
+      "fill_pnl": 0.0,
+      "category": "weather"
+    },
+    {
+      "timestamp": "2026-04-09T03:41:44.610605",
+      "market_id": "KXHIGHTSEA-26APR09-T63",
+      "side": "buy",
+      "price": 0.06,
+      "size_usd": 1.26,
+      "fill_pnl": 0.0,
+      "category": "weather"
+    },
+    {
+      "timestamp": "2026-04-09T03:41:44.986407",
+      "market_id": "KXHIGHPHIL-26APR09-T59",
+      "side": "buy",
+      "price": 0.34,
+      "size_usd": 2.72,
+      "fill_pnl": 0.0,
+      "category": "weather"
+    },
+    {
+      "timestamp": "2026-04-09T04:20:05.305714",
+      "market_id": "KXNBAGAME-26APR10DETCHA-CHA",
+      "side": "buy",
+      "price": 0.63,
+      "size_usd": 0.37,
+      "fill_pnl": 0.03,
+      "category": ""
+    },
+    {
+      "timestamp": "2026-04-09T05:16:45.406769",
+      "market_id": "KXNBAGAME-26APR10NOPBOS-NOP",
+      "side": "buy",
+      "price": 0.16,
+      "size_usd": 6.72,
+      "fill_pnl": 0.0,
+      "category": ""
+    },
+    {
+      "timestamp": "2026-04-09T05:18:02.697950",
+      "market_id": "KXNBAGAME-26APR10NOPBOS-NOP",
+      "side": "sell",
+      "price": 0.15,
+      "size_usd": 1.7,
+      "fill_pnl": 0.0,
+      "category": ""
+    },
+    {
+      "timestamp": "2026-04-09T05:45:33.560803",
+      "market_id": "KXNBAGAME-26APR10NOPBOS-NOP",
+      "side": "sell",
+      "price": 0.15,
+      "size_usd": 1.7,
+      "fill_pnl": 0.0,
+      "category": ""
     }
   ],
   "fills_4h": {
-    "fills": 64,
-    "buys": 19,
-    "sells": 45,
-    "pnl": -0.0222,
-    "fill_rate_per_hour": 16.0
+    "fills": 11,
+    "buys": 5,
+    "sells": 6,
+    "pnl": 0.02,
+    "fill_rate_per_hour": 2.75
   },
   "fills_24h": {
-    "fills": 64,
-    "buys": 19,
-    "sells": 45,
-    "pnl": -0.0222,
-    "fill_rate_per_hour": 2.67
+    "fills": 74,
+    "buys": 24,
+    "sells": 50,
+    "pnl": -0.0522,
+    "fill_rate_per_hour": 3.08
   },
   "fills_7d": {
-    "fills": 64,
-    "buys": 19,
-    "sells": 45,
-    "pnl": -0.0222,
-    "fill_rate_per_hour": 0.38
+    "fills": 74,
+    "buys": 24,
+    "sells": 50,
+    "pnl": -0.0522,
+    "fill_rate_per_hour": 0.44
   },
-  "fills_total": 64,
+  "fills_total": 74,
   "adverse": {
-    "total": 1446,
-    "adverse": 437,
-    "rate": 30.2,
+    "total": 1438,
+    "adverse": 435,
+    "rate": 30.3,
     "worst_market": "KXCPI-26MAR-T0.7",
     "worst_count": 64
   },
@@ -856,23 +387,23 @@
       "adverse_count": 40
     },
     {
-      "market_id": "KXINXMINY-01JAN2027-6000.01",
+      "market_id": "KXCPI-26APR-T0.6",
       "adverse_count": 36
     },
     {
-      "market_id": "KXCPI-26APR-T0.6",
-      "adverse_count": 36
+      "market_id": "KXINXMINY-01JAN2027-6000.01",
+      "adverse_count": 35
     },
     {
       "market_id": "KXCPI-26APR-T0.5",
       "adverse_count": 26
     },
     {
-      "market_id": "KXWTIMAX-26DEC31-T115",
-      "adverse_count": 25
+      "market_id": "KXCPICOREYOY-26APR-T2.8",
+      "adverse_count": 24
     },
     {
-      "market_id": "KXCPICOREYOY-26APR-T2.8",
+      "market_id": "KXWTIMAX-26DEC31-T115",
       "adverse_count": 24
     },
     {
@@ -963,37 +494,40 @@
       "stale_price_timeout": 600
     },
     "market_criteria": {
-      "min_spread": 0.02,
+      "min_spread": 0.01,
       "max_spread": 0.2,
-      "min_fair_value": 0.1,
-      "max_fair_value": 0.95,
+      "min_fair_value": 0.01,
+      "max_fair_value": 0.99,
       "min_volume_24h": 0,
-      "min_open_interest": 50,
-      "min_hours_to_close": 48,
+      "min_open_interest": 0,
+      "min_hours_to_close": 2,
       "max_hours_to_close": 720
     },
     "target_series_count": 34
   },
   "advisor": {
-    "timestamp": "2026-04-09T02:54:57.319120+00:00",
-    "eval_count": 3,
+    "timestamp": "2026-04-09T06:40:42.642669+00:00",
+    "eval_count": 5,
     "error_count": 0,
-    "last_latency": 2.16,
+    "last_latency": 2.63,
     "overrides": {
       "skip_series": [
         "KXCPI",
-        "KXPCECORE",
-        "KXPAYROLLS"
+        "KXCPICORE",
+        "KXCPIYOY",
+        "KXCPICOREYOY",
+        "KXPCECORE"
       ],
       "widen_spread": {
-        "KXCPIYOY": 0.04,
-        "KXINXMINY": 0.06,
-        "KXFEDDECISION": 0.05
+        "KXINXMINY": 0.04,
+        "KXWTIMAX": 0.03,
+        "KXSOLMAXY": 0.02,
+        "KXFEDDECISION": 0.03
       },
-      "notes": "CPI (2d away), PPI/PCE (20d), Payrolls (22d) too close to quote. High adverse selection on CPI/INXMINY/CPIYOY. Skip all macro releases; widen core inflation proxies and Fed decision."
+      "notes": "CPI/PCE/PPI releases in 30-31hrs cause extreme adverse selection (163/87/53 picks). Skip all inflation series. FOMC 491hrs out \u2014 widen for now. Sports/weather unaffected."
     }
   },
-  "bot_uptime": "1h52m",
+  "bot_uptime": "2h43m",
   "errors_24h": 0,
-  "fills_based_position_count": 23
+  "fills_based_position_count": 29
 }
