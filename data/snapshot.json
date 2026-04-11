@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-11T06:55:05.941925+00:00",
+  "timestamp": "2026-04-11T10:55:08.532633+00:00",
   "balance": {
     "cash": 33.99,
-    "portfolio": 41.69
+    "portfolio": 42.36
   },
   "positions": [
     {
@@ -99,23 +99,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-06-17T17:59:00Z",
-      "hours_to_close": 1619.1
-    },
-    {
-      "market_id": "KXHIGHLAX-26APR10-B69.5",
-      "direction": "no",
-      "contracts": 4,
-      "cash_locked": 3.98,
-      "close_action": "sell no",
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
-      "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-11T07:59:00Z",
-      "hours_to_close": 1.1
+      "hours_to_close": 1615.1
     },
     {
       "market_id": "KXHIGHMIA-26APR10-T83",
@@ -131,6 +115,22 @@
       "status": "closed",
       "result": "",
       "close_time": "2026-04-11T04:59:00Z",
+      "hours_to_close": 0
+    },
+    {
+      "market_id": "KXHIGHLAX-26APR10-B69.5",
+      "direction": "no",
+      "contracts": 4,
+      "cash_locked": 2.0,
+      "close_action": "sell no",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-04-11T07:59:00Z",
       "hours_to_close": 0
     },
     {
@@ -231,7 +231,7 @@
     }
   ],
   "position_count": 14,
-  "total_cash_locked": 174.34,
+  "total_cash_locked": 172.36,
   "resting_orders": [],
   "resting_order_count": 0,
   "recent_fills": [],
@@ -258,9 +258,9 @@
   },
   "fills_total": 198,
   "adverse": {
-    "total": 1015,
+    "total": 1013,
     "adverse": 323,
-    "rate": 31.8,
+    "rate": 31.9,
     "worst_market": "KXPCECORE-26AUG-T0.4",
     "worst_count": 53
   },
@@ -409,26 +409,27 @@
     "target_series_count": 34
   },
   "advisor": {
-    "timestamp": "2026-04-11T06:42:37.475097+00:00",
-    "eval_count": 22,
+    "timestamp": "2026-04-11T10:51:29.481830+00:00",
+    "eval_count": 30,
     "error_count": 0,
-    "last_latency": 2.27,
+    "last_latency": 3.14,
     "overrides": {
       "skip_series": [
         "KXCPI",
         "KXPCECORE",
-        "KXPAYROLLS",
-        "KXGDP"
+        "KXPAYROLLS"
       ],
       "widen_spread": {
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTBOS": 0.02,
-        "KXFEDDECISION": 0.01
+        "KXINXMINY": 0.04,
+        "KXCPICOREYOY": 0.03,
+        "KXCPIYOY": 0.03,
+        "KXWTIMAX": 0.02,
+        "KXFEDDECISION": 0.02
       },
-      "notes": "Skip macro series ahead of CPI (4/10), PPI (4/11), PCE (4/30), payrolls (5/2), FOMC (5/7). Widen spreads on sports with elevated adverse rates. Weather/temp markets safe."
+      "notes": "CPI (Apr 10), PPI (Apr 11), PCE (Apr 30), Payrolls (May 2) all within 7d\u2014skip affected series. KXINXMINY has 68 adverse picks; widen moderately. KXFEDDECISION 439h out but elevated adverse (20 picks); small widening acceptable. Sports markets (KXHIGH*) are safe\u2014game-time rotation normal."
     }
   },
-  "bot_uptime": "11h25m",
+  "bot_uptime": "15h25m",
   "errors_24h": 0,
   "fills_based_position_count": 54
 }
