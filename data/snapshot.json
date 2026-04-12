@@ -1,10 +1,42 @@
 {
-  "timestamp": "2026-04-12T02:55:12.079044+00:00",
+  "timestamp": "2026-04-12T06:55:07.395692+00:00",
   "balance": {
     "cash": 23.42,
-    "portfolio": 40.38
+    "portfolio": 41.34
   },
   "positions": [
+    {
+      "market_id": "KXHIGHNY-26APR11-B63.5",
+      "direction": "no",
+      "contracts": 40,
+      "cash_locked": 20.0,
+      "close_action": "sell no",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-04-12T04:59:00Z",
+      "hours_to_close": 0
+    },
+    {
+      "market_id": "KXHIGHMIA-26APR11-B80.5",
+      "direction": "no",
+      "contracts": 26,
+      "cash_locked": 13.0,
+      "close_action": "sell no",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-04-12T04:59:00Z",
+      "hours_to_close": 0
+    },
     {
       "market_id": "KXHIGHTSEA-26APR11-B53.5",
       "direction": "no",
@@ -19,39 +51,39 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-12T08:00:00Z",
-      "hours_to_close": 5.1
+      "hours_to_close": 1.1
     },
     {
       "market_id": "KXFEDDECISION-26JUN-H0",
       "direction": "no",
       "contracts": 67,
-      "cash_locked": 7.03,
+      "cash_locked": 7.37,
       "close_action": "sell no",
-      "yes_bid": 0.89,
+      "yes_bid": 0.88,
       "yes_ask": 0.9,
       "no_bid": 0.1,
-      "no_ask": 0.11,
-      "midpoint": 0.895,
+      "no_ask": 0.12,
+      "midpoint": 0.89,
       "status": "active",
       "result": "",
       "close_time": "2026-06-17T17:59:00Z",
-      "hours_to_close": 1599.1
+      "hours_to_close": 1595.1
     },
     {
-      "market_id": "KXHIGHCHI-26APR11-B55.5",
-      "direction": "no",
-      "contracts": 6,
-      "cash_locked": 5.25,
-      "close_action": "sell no",
-      "yes_bid": 0.12,
-      "yes_ask": 0.13,
-      "no_bid": 0.87,
-      "no_ask": 0.88,
-      "midpoint": 0.125,
-      "status": "active",
+      "market_id": "KXHIGHTBOS-26APR11-B61.5",
+      "direction": "yes",
+      "contracts": 10,
+      "cash_locked": 5.0,
+      "close_action": "sell yes",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
       "result": "",
-      "close_time": "2026-04-12T05:59:00Z",
-      "hours_to_close": 3.1
+      "close_time": "2026-04-12T05:00:00Z",
+      "hours_to_close": 0
     },
     {
       "market_id": "KXHIGHTPHX-26APR11-B91.5",
@@ -67,55 +99,87 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-12T07:00:00Z",
-      "hours_to_close": 4.1
+      "hours_to_close": 0.1
+    },
+    {
+      "market_id": "KXHIGHTDC-26APR11-B72.5",
+      "direction": "yes",
+      "contracts": 7,
+      "cash_locked": 3.5,
+      "close_action": "sell yes",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-04-12T05:00:00Z",
+      "hours_to_close": 0
+    },
+    {
+      "market_id": "KXHIGHCHI-26APR11-B55.5",
+      "direction": "no",
+      "contracts": 6,
+      "cash_locked": 3.0,
+      "close_action": "sell no",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-04-12T05:59:00Z",
+      "hours_to_close": 0
+    },
+    {
+      "market_id": "KXHIGHPHIL-26APR11-B67.5",
+      "direction": "no",
+      "contracts": 6,
+      "cash_locked": 3.0,
+      "close_action": "sell no",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-04-12T04:59:00Z",
+      "hours_to_close": 0
     },
     {
       "market_id": "KXHIGHTDAL-26APR11-B80.5",
       "direction": "yes",
       "contracts": 4,
-      "cash_locked": 3.98,
+      "cash_locked": 2.0,
       "close_action": "sell yes",
-      "yes_bid": 0.99,
+      "yes_bid": 0.0,
       "yes_ask": 1.0,
       "no_bid": 0.0,
-      "no_ask": 0.01,
-      "midpoint": 0.995,
-      "status": "active",
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
       "result": "",
       "close_time": "2026-04-12T06:00:00Z",
-      "hours_to_close": 3.1
+      "hours_to_close": 0
     },
     {
-      "market_id": "KXHIGHPHIL-26APR11-B65.5",
+      "market_id": "KXHIGHTDC-26APR11-B70.5",
       "direction": "no",
-      "contracts": 3,
-      "cash_locked": 2.98,
+      "contracts": 4,
+      "cash_locked": 2.0,
       "close_action": "sell no",
       "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
       "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
+      "midpoint": 0.5,
+      "status": "closed",
       "result": "",
-      "close_time": "2026-04-12T04:59:00Z",
-      "hours_to_close": 2.1
-    },
-    {
-      "market_id": "KXHIGHTMIN-26APR11-T50",
-      "direction": "no",
-      "contracts": 3,
-      "cash_locked": 2.75,
-      "close_action": "sell no",
-      "yes_bid": 0.08,
-      "yes_ask": 0.09,
-      "no_bid": 0.91,
-      "no_ask": 0.92,
-      "midpoint": 0.085,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-12T06:00:00Z",
-      "hours_to_close": 3.1
+      "close_time": "2026-04-12T05:00:00Z",
+      "hours_to_close": 0
     },
     {
       "market_id": "KXHIGHTPHX-26APR11-B87.5",
@@ -131,23 +195,55 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-12T07:00:00Z",
-      "hours_to_close": 4.1
+      "hours_to_close": 0.1
+    },
+    {
+      "market_id": "KXHIGHTMIN-26APR11-T50",
+      "direction": "no",
+      "contracts": 3,
+      "cash_locked": 1.5,
+      "close_action": "sell no",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-04-12T06:00:00Z",
+      "hours_to_close": 0
+    },
+    {
+      "market_id": "KXHIGHPHIL-26APR11-B65.5",
+      "direction": "no",
+      "contracts": 3,
+      "cash_locked": 1.5,
+      "close_action": "sell no",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-04-12T04:59:00Z",
+      "hours_to_close": 0
     },
     {
       "market_id": "KXHIGHTOKC-26APR11-B76.5",
       "direction": "yes",
       "contracts": 2,
-      "cash_locked": 1.99,
+      "cash_locked": 1.0,
       "close_action": "sell yes",
-      "yes_bid": 0.99,
+      "yes_bid": 0.0,
       "yes_ask": 1.0,
       "no_bid": 0.0,
-      "no_ask": 0.01,
-      "midpoint": 0.995,
-      "status": "active",
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
       "result": "",
       "close_time": "2026-04-12T06:00:00Z",
-      "hours_to_close": 3.1
+      "hours_to_close": 0
     },
     {
       "market_id": "KXHIGHDEN-26APR11-B78.5",
@@ -163,71 +259,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-12T06:59:00Z",
-      "hours_to_close": 4.1
-    },
-    {
-      "market_id": "KXHIGHNY-26APR11-B63.5",
-      "direction": "no",
-      "contracts": 40,
-      "cash_locked": 0.2,
-      "close_action": "sell no",
-      "yes_bid": 0.99,
-      "yes_ask": 1.0,
-      "no_bid": 0.0,
-      "no_ask": 0.01,
-      "midpoint": 0.995,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-12T04:59:00Z",
-      "hours_to_close": 2.1
-    },
-    {
-      "market_id": "KXHIGHMIA-26APR11-B80.5",
-      "direction": "no",
-      "contracts": 26,
-      "cash_locked": 0.13,
-      "close_action": "sell no",
-      "yes_bid": 0.99,
-      "yes_ask": 1.0,
-      "no_bid": 0.0,
-      "no_ask": 0.01,
-      "midpoint": 0.995,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-12T04:59:00Z",
-      "hours_to_close": 2.1
-    },
-    {
-      "market_id": "KXHIGHTBOS-26APR11-B61.5",
-      "direction": "yes",
-      "contracts": 10,
-      "cash_locked": 0.05,
-      "close_action": "sell yes",
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
-      "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-12T05:00:00Z",
-      "hours_to_close": 2.1
-    },
-    {
-      "market_id": "KXHIGHTDC-26APR11-B72.5",
-      "direction": "yes",
-      "contracts": 7,
-      "cash_locked": 0.04,
-      "close_action": "sell yes",
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
-      "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-12T05:00:00Z",
-      "hours_to_close": 2.1
+      "hours_to_close": 0.1
     },
     {
       "market_id": "KXHIGHDEN-26APR11-B76.5",
@@ -243,43 +275,11 @@
       "status": "active",
       "result": "",
       "close_time": "2026-04-12T06:59:00Z",
-      "hours_to_close": 4.1
-    },
-    {
-      "market_id": "KXHIGHPHIL-26APR11-B67.5",
-      "direction": "no",
-      "contracts": 6,
-      "cash_locked": 0.03,
-      "close_action": "sell no",
-      "yes_bid": 0.99,
-      "yes_ask": 1.0,
-      "no_bid": 0.0,
-      "no_ask": 0.01,
-      "midpoint": 0.995,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-12T04:59:00Z",
-      "hours_to_close": 2.1
-    },
-    {
-      "market_id": "KXHIGHTDC-26APR11-B70.5",
-      "direction": "no",
-      "contracts": 4,
-      "cash_locked": 0.02,
-      "close_action": "sell no",
-      "yes_bid": 0.99,
-      "yes_ask": 1.0,
-      "no_bid": 0.0,
-      "no_ask": 0.01,
-      "midpoint": 0.995,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-12T05:00:00Z",
-      "hours_to_close": 2.1
+      "hours_to_close": 0.1
     }
   ],
   "position_count": 17,
-  "total_cash_locked": 40.4,
+  "total_cash_locked": 78.82,
   "resting_orders": [
     {
       "ticker": "KXFEDDECISION-26JUN-H0",
@@ -315,40 +315,24 @@
   },
   "fills_total": 244,
   "adverse": {
-    "total": 579,
-    "adverse": 176,
-    "rate": 30.4,
+    "total": 387,
+    "adverse": 132,
+    "rate": 34.1,
     "worst_market": "KXPCECORE-26AUG-T0.4",
-    "worst_count": 28
+    "worst_count": 14
   },
   "paused_markets": [
     {
       "market_id": "KXPCECORE-26AUG-T0.4",
-      "adverse_count": 28
-    },
-    {
-      "market_id": "KXCPI-26MAR-T0.7",
-      "adverse_count": 12
+      "adverse_count": 14
     },
     {
       "market_id": "KXCPI-26APR-T0.5",
-      "adverse_count": 11
+      "adverse_count": 10
     },
     {
       "market_id": "KXINXMINY-01JAN2027-6000.01",
-      "adverse_count": 11
-    },
-    {
-      "market_id": "KXWTIMAX-26DEC31-T115",
       "adverse_count": 9
-    },
-    {
-      "market_id": "KXINXMINY-01JAN2027-6200.01",
-      "adverse_count": 8
-    },
-    {
-      "market_id": "KXCPI-26APR-T0.6",
-      "adverse_count": 8
     },
     {
       "market_id": "KXHIGHMIA-26APR09-B80.5",
@@ -359,15 +343,19 @@
       "adverse_count": 7
     },
     {
+      "market_id": "KXCPI-26MAR-T0.7",
+      "adverse_count": 5
+    },
+    {
       "market_id": "KXWTIMAX-26DEC31-T125",
       "adverse_count": 5
     },
     {
-      "market_id": "KXBTCMINY-27JAN01-55000.00",
+      "market_id": "KXINXMINY-01JAN2027-6200.01",
       "adverse_count": 4
     },
     {
-      "market_id": "KXCPICOREYOY-26APR-T2.8",
+      "market_id": "KXCPI-26APR-T0.6",
       "adverse_count": 4
     },
     {
@@ -387,11 +375,7 @@
       "adverse_count": 4
     },
     {
-      "market_id": "KXSOLMAXY-27JAN01-300",
-      "adverse_count": 3
-    },
-    {
-      "market_id": "KXCPI-26APR-T0.7",
+      "market_id": "KXWTIMAX-26DEC31-T115",
       "adverse_count": 3
     },
     {
@@ -451,10 +435,10 @@
     "target_series_count": 34
   },
   "advisor": {
-    "timestamp": "2026-04-12T02:34:03.124059+00:00",
-    "eval_count": 5,
+    "timestamp": "2026-04-12T06:41:43.105512+00:00",
+    "eval_count": 13,
     "error_count": 0,
-    "last_latency": 2.3,
+    "last_latency": 2.67,
     "overrides": {
       "skip_series": [
         "KXCPI",
@@ -464,13 +448,13 @@
       "widen_spread": {
         "KXINXMINY": 0.04,
         "KXWTIMAX": 0.03,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTBOS": 0.02
+        "KXSOLMAXY": 0.02,
+        "KXNBAGAME": 0.02
       },
-      "notes": "CPI/PCE release 2026-04-10, skip inflation series with 74%/42% adverse rates. Widen weather/commodity/weather-correlated. Sports spreads fine; weather stable. Monitor FOMC (423h out)."
+      "notes": "CPI/PCE releases on 4/10 & 4/30 with extreme adverse rates (74%, 42%, 10%). Skip inflation series entirely. Widen spreads on commodity & niche markets showing elevated adverse selection. Sports/weather quotes safe."
     }
   },
-  "bot_uptime": "2h54m",
+  "bot_uptime": "6h53m",
   "errors_24h": 0,
   "fills_based_position_count": 74
 }
