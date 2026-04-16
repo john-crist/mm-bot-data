@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T06:55:03.558320+00:00",
+  "timestamp": "2026-04-16T10:55:04.927239+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.44
@@ -22,6 +22,22 @@
       "hours_to_close": 0
     },
     {
+      "market_id": "KXHIGHTSEA-26APR15-T45",
+      "direction": "yes",
+      "contracts": 16,
+      "cash_locked": 8.0,
+      "close_action": "sell yes",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-04-16T08:00:00Z",
+      "hours_to_close": 0
+    },
+    {
       "market_id": "KXHIGHTDC-26APR15-B90.5",
       "direction": "no",
       "contracts": 2,
@@ -36,26 +52,10 @@
       "result": "",
       "close_time": "2026-04-16T05:00:00Z",
       "hours_to_close": 0
-    },
-    {
-      "market_id": "KXHIGHTSEA-26APR15-T45",
-      "direction": "yes",
-      "contracts": 16,
-      "cash_locked": 0.08,
-      "close_action": "sell yes",
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
-      "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-04-16T08:00:00Z",
-      "hours_to_close": 1.1
     }
   ],
   "position_count": 3,
-  "total_cash_locked": 14.08,
+  "total_cash_locked": 22.0,
   "resting_orders": [],
   "resting_order_count": 0,
   "recent_fills": [],
@@ -74,17 +74,17 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 497,
+    "fills": 494,
     "buys": 199,
-    "sells": 298,
-    "pnl": -18.0797,
-    "fill_rate_per_hour": 2.96
+    "sells": 295,
+    "pnl": -18.1997,
+    "fill_rate_per_hour": 2.94
   },
   "fills_total": 571,
   "adverse": {
-    "total": 435,
+    "total": 432,
     "adverse": 169,
-    "rate": 38.9,
+    "rate": 39.1,
     "worst_market": "KXHIGHCHI-26APR12-B80.5",
     "worst_count": 9
   },
@@ -253,10 +253,10 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-16T06:52:30.797360+00:00",
-    "eval_count": 25,
+    "timestamp": "2026-04-16T10:30:17.310375+00:00",
+    "eval_count": 32,
     "error_count": 1,
-    "last_latency": 2.92,
+    "last_latency": 2.75,
     "overrides": {
       "skip_series": [
         "KXHIGHCHI",
@@ -264,21 +264,18 @@
         "KXHIGHNY"
       ],
       "widen_spread": {
-        "KXHIGHTBOS": 0.03,
-        "KXHIGHTATL": 0.04,
+        "KXHIGHAUS": 0.02,
+        "KXHIGHTDC": 0.03,
+        "KXHIGHTBOS": 0.02,
         "KXHIGHTPHX": 0.02,
         "KXHIGHPHIL": 0.02,
-        "KXHIGHTOKC": 0.02,
         "KXHIGHTLV": 0.03,
-        "KXHIGHTSATX": 0.02,
-        "KXHIGHTSEA": 0.03,
-        "KXHIGHTSFO": 0.04,
-        "KXHIGHDEN": 0.02
+        "KXHIGHTATL": 0.02
       },
-      "notes": "Skip CHI/MIA/NY \u2014 adverse rates 18-21% indicate informed picking. Widen spreads on remaining high-adverse series (9-14%). Weather markets safe. No immediate econ data risk (CPI is 4 days out)."
+      "notes": "38% adverse rate + top 3 series (CHI, MIA, NY) all >18% \u2014 informed traders active. Skip these. Widen spreads on secondary high-adverse series (9\u201316% rates). Weather/sports safe. No imminent data releases today."
     }
   },
-  "bot_uptime": "13h43m",
+  "bot_uptime": "17h43m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
