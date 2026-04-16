@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T14:55:06.388743+00:00",
+  "timestamp": "2026-04-16T18:55:04.707387+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.42
@@ -58,17 +58,17 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 493,
-    "buys": 199,
-    "sells": 294,
-    "pnl": -18.1825,
-    "fill_rate_per_hour": 2.93
+    "fills": 478,
+    "buys": 194,
+    "sells": 284,
+    "pnl": -18.8725,
+    "fill_rate_per_hour": 2.85
   },
   "fills_total": 571,
   "adverse": {
-    "total": 432,
-    "adverse": 169,
-    "rate": 39.1,
+    "total": 419,
+    "adverse": 162,
+    "rate": 38.7,
     "worst_market": "KXHIGHCHI-26APR12-B80.5",
     "worst_count": 9
   },
@@ -82,12 +82,12 @@
       "adverse_count": 8
     },
     {
-      "market_id": "KXHIGHMIA-26APR09-B80.5",
+      "market_id": "KXHIGHTBOS-26APR10-B66.5",
       "adverse_count": 7
     },
     {
-      "market_id": "KXHIGHTBOS-26APR10-B66.5",
-      "adverse_count": 7
+      "market_id": "KXHIGHMIA-26APR09-B80.5",
+      "adverse_count": 6
     },
     {
       "market_id": "KXHIGHLAX-26APR12-B65.5",
@@ -106,14 +106,6 @@
       "adverse_count": 5
     },
     {
-      "market_id": "KXHIGHTPHX-26APR09-B95.5",
-      "adverse_count": 4
-    },
-    {
-      "market_id": "KXHIGHCHI-26APR09-B71.5",
-      "adverse_count": 4
-    },
-    {
       "market_id": "KXHIGHAUS-26APR09-B82.5",
       "adverse_count": 4
     },
@@ -122,7 +114,11 @@
       "adverse_count": 4
     },
     {
-      "market_id": "KXHIGHMIA-26APR09-B78.5",
+      "market_id": "KXHIGHTPHX-26APR09-B95.5",
+      "adverse_count": 3
+    },
+    {
+      "market_id": "KXHIGHCHI-26APR09-B71.5",
       "adverse_count": 3
     },
     {
@@ -237,27 +233,35 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-16T14:45:55.428289+00:00",
-    "eval_count": 40,
+    "timestamp": "2026-04-16T18:30:35.497076+00:00",
+    "eval_count": 47,
     "error_count": 1,
-    "last_latency": 2.84,
+    "last_latency": 2.63,
     "overrides": {
       "skip_series": [
         "KXHIGHCHI",
-        "KXHIGHMIA"
+        "KXHIGHMIA",
+        "KXHIGHNY",
+        "KXHIGHAUS",
+        "KXHIGHTDAL",
+        "KXHIGHTBOS",
+        "KXHIGHTATL",
+        "KXHIGHPHIL"
       ],
       "widen_spread": {
-        "KXHIGHNY": 0.03,
-        "KXHIGHAUS": 0.02,
-        "KXHIGHTDAL": 0.02,
-        "KXHIGHTBOS": 0.02,
+        "KXHIGHTDC": 0.06,
+        "KXHIGHLAX": 0.03,
         "KXHIGHTPHX": 0.02,
-        "KXHIGHTATL": 0.03
+        "KXHIGHTMIN": 0.03,
+        "KXHIGHTOKC": 0.03,
+        "KXHIGHTLV": 0.02,
+        "KXHIGHTTSF": 0.03,
+        "KXHIGHTSEA": 0.02
       },
-      "notes": "Skip CHI (21% adverse, worst series) and MIA (21% adverse, existing position). Widen spreads on high-adverse series (14-18%). Weather/sports unaffected. No major econ data until 2026-04-10."
+      "notes": "High adverse selection (38.1%) concentrated in top 8 series\u2014skip them. CPI/PPI imminent (2d away); widen spreads on remaining candidates. KXHIGHTSEA position held despite pickup signal."
     }
   },
-  "bot_uptime": "21h43m",
+  "bot_uptime": "25h43m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
