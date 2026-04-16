@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-16T10:55:04.927239+00:00",
+  "timestamp": "2026-04-16T14:55:06.388743+00:00",
   "balance": {
     "cash": 40.15,
-    "portfolio": 0.44
+    "portfolio": 0.42
   },
   "positions": [
     {
@@ -36,26 +36,10 @@
       "result": "",
       "close_time": "2026-04-16T08:00:00Z",
       "hours_to_close": 0
-    },
-    {
-      "market_id": "KXHIGHTDC-26APR15-B90.5",
-      "direction": "no",
-      "contracts": 2,
-      "cash_locked": 1.0,
-      "close_action": "sell no",
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "no_bid": 0.0,
-      "no_ask": 1.0,
-      "midpoint": 0.5,
-      "status": "closed",
-      "result": "",
-      "close_time": "2026-04-16T05:00:00Z",
-      "hours_to_close": 0
     }
   ],
-  "position_count": 3,
-  "total_cash_locked": 22.0,
+  "position_count": 2,
+  "total_cash_locked": 21.0,
   "resting_orders": [],
   "resting_order_count": 0,
   "recent_fills": [],
@@ -74,11 +58,11 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 494,
+    "fills": 493,
     "buys": 199,
-    "sells": 295,
-    "pnl": -18.1997,
-    "fill_rate_per_hour": 2.94
+    "sells": 294,
+    "pnl": -18.1825,
+    "fill_rate_per_hour": 2.93
   },
   "fills_total": 571,
   "adverse": {
@@ -253,29 +237,27 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-16T10:30:17.310375+00:00",
-    "eval_count": 32,
+    "timestamp": "2026-04-16T14:45:55.428289+00:00",
+    "eval_count": 40,
     "error_count": 1,
-    "last_latency": 2.75,
+    "last_latency": 2.84,
     "overrides": {
       "skip_series": [
         "KXHIGHCHI",
-        "KXHIGHMIA",
-        "KXHIGHNY"
+        "KXHIGHMIA"
       ],
       "widen_spread": {
+        "KXHIGHNY": 0.03,
         "KXHIGHAUS": 0.02,
-        "KXHIGHTDC": 0.03,
+        "KXHIGHTDAL": 0.02,
         "KXHIGHTBOS": 0.02,
         "KXHIGHTPHX": 0.02,
-        "KXHIGHPHIL": 0.02,
-        "KXHIGHTLV": 0.03,
-        "KXHIGHTATL": 0.02
+        "KXHIGHTATL": 0.03
       },
-      "notes": "38% adverse rate + top 3 series (CHI, MIA, NY) all >18% \u2014 informed traders active. Skip these. Widen spreads on secondary high-adverse series (9\u201316% rates). Weather/sports safe. No imminent data releases today."
+      "notes": "Skip CHI (21% adverse, worst series) and MIA (21% adverse, existing position). Widen spreads on high-adverse series (14-18%). Weather/sports unaffected. No major econ data until 2026-04-10."
     }
   },
-  "bot_uptime": "17h43m",
+  "bot_uptime": "21h43m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
