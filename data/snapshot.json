@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T02:55:05.134477+00:00",
+  "timestamp": "2026-04-17T06:55:02.189631+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.42
@@ -58,17 +58,17 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 424,
-    "buys": 170,
-    "sells": 254,
-    "pnl": -19.8704,
-    "fill_rate_per_hour": 2.52
+    "fills": 416,
+    "buys": 167,
+    "sells": 249,
+    "pnl": -19.1904,
+    "fill_rate_per_hour": 2.48
   },
   "fills_total": 571,
   "adverse": {
-    "total": 368,
-    "adverse": 138,
-    "rate": 37.5,
+    "total": 361,
+    "adverse": 137,
+    "rate": 38.0,
     "worst_market": "KXHIGHCHI-26APR12-B80.5",
     "worst_count": 9
   },
@@ -217,27 +217,26 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-17T02:44:30.586548+00:00",
-    "eval_count": 5,
+    "timestamp": "2026-04-17T06:25:34.915983+00:00",
+    "eval_count": 12,
     "error_count": 0,
-    "last_latency": 5.86,
+    "last_latency": 2.61,
     "overrides": {
       "skip_series": [
-        "KXHIGHTPHX",
         "KXHIGHNY",
-        "KXHIGHCHI"
+        "KXHIGHCHI",
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHLAX": 0.02,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHDEN": 0.02,
-        "KXHIGHAUS": 0.02,
-        "KXHIGHTSEA": 0.03
+        "KXHIGHMIA": 0.04,
+        "KXHIGHTSEA": 0.05,
+        "KXHIGHAUS": 0.03,
+        "KXHIGHDEN": 0.02
       },
-      "notes": "Skip highest adverse series (PHX 18%, NY 16%, CHI 16%). Widen spreads on remaining candidates with adverse >11%. KXHIGHTSEA at 5hrs to expiry warrants extra caution. All series distant from econ releases (next is CPI in 3+ days)."
+      "notes": "Skip top 3 adverse series (NY 18%, CHI 16%, BOS 14%). Widen spreads on held positions (MIA, SEA) + other high-adverse (AUS). Keep DEN, LAX, other low-adverse. Economic data (CPI 4/10, payrolls 5/2) poses tail risk but markets are weather-focused."
     }
   },
-  "bot_uptime": "2h45m",
+  "bot_uptime": "6h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
