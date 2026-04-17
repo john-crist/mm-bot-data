@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T06:55:02.189631+00:00",
+  "timestamp": "2026-04-17T10:55:04.138506+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.42
@@ -217,26 +217,26 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-17T06:25:34.915983+00:00",
-    "eval_count": 12,
+    "timestamp": "2026-04-17T10:40:15.522734+00:00",
+    "eval_count": 20,
     "error_count": 0,
-    "last_latency": 2.61,
+    "last_latency": 2.46,
     "overrides": {
       "skip_series": [
         "KXHIGHNY",
-        "KXHIGHCHI",
-        "KXHIGHTBOS"
+        "KXHIGHCHI"
       ],
       "widen_spread": {
-        "KXHIGHMIA": 0.04,
-        "KXHIGHTSEA": 0.05,
         "KXHIGHAUS": 0.03,
-        "KXHIGHDEN": 0.02
+        "KXHIGHTDC": 0.04,
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTSEA": 0.02
       },
-      "notes": "Skip top 3 adverse series (NY 18%, CHI 16%, BOS 14%). Widen spreads on held positions (MIA, SEA) + other high-adverse (AUS). Keep DEN, LAX, other low-adverse. Economic data (CPI 4/10, payrolls 5/2) poses tail risk but markets are weather-focused."
+      "notes": "KXHIGHNY (18% adverse) and KXHIGHCHI (16% adverse) showing severe adverse selection\u2014informed traders picking us off. Widen spreads on next-worst series. CPI in 2 days may amplify temp volatility."
     }
   },
-  "bot_uptime": "6h45m",
+  "bot_uptime": "10h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
