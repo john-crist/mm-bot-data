@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T18:55:07.276870+00:00",
+  "timestamp": "2026-04-17T22:55:08.197750+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -42,17 +42,17 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 381,
-    "buys": 152,
-    "sells": 229,
-    "pnl": -18.9704,
-    "fill_rate_per_hour": 2.27
+    "fills": 373,
+    "buys": 148,
+    "sells": 225,
+    "pnl": -15.3304,
+    "fill_rate_per_hour": 2.22
   },
   "fills_total": 571,
   "adverse": {
-    "total": 331,
+    "total": 327,
     "adverse": 127,
-    "rate": 38.4,
+    "rate": 38.8,
     "worst_market": "KXHIGHCHI-26APR12-B80.5",
     "worst_count": 9
   },
@@ -197,26 +197,27 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-17T18:38:17.617000+00:00",
-    "eval_count": 34,
+    "timestamp": "2026-04-17T22:44:57.672070+00:00",
+    "eval_count": 42,
     "error_count": 1,
-    "last_latency": 2.89,
+    "last_latency": 2.48,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI-26APR1"
+        "KXHIGHCHI",
+        "KXHIGHNY",
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHNY:18": 0.04,
-        "KXHIGHCHI:16": 0.04,
-        "KXHIGHTBOS:14": 0.03,
-        "KXHIGHTDAL:12": 0.03,
-        "KXHIGHAUS:12": 0.03,
-        "KXHIGHMIA:11": 0.02
+        "KXHIGHMIA": 0.04,
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHATL": 0.02,
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTPHX": 0.02
       },
-      "notes": "37.9% adverse rate critical. Skip worst offender KXHIGHCHI-26APR1 entirely. Widen spreads on top 6 adverse series (NY,CHI,BOS,DAL,AUS,MIA). CPI/PPI in 1-2d may spike adverse selection further. Monitor KXHIGHMIA (existing position) closely."
+      "notes": "Overall adverse rate 37.9% is elevated. Skip CHI/NY/BOS (highest adverse rates 16-18%). Widen MIA (position + adverse), DAL/ATL/SEA (12-8% adverse). Accept TSF/LV/PHX short-term with modest widening. Weather markets stable."
     }
   },
-  "bot_uptime": "18h45m",
+  "bot_uptime": "22h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
