@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-18T02:55:06.338183+00:00",
+  "timestamp": "2026-04-18T06:55:03.667434+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -197,29 +197,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-18T02:30:54.344468+00:00",
-    "eval_count": 49,
+    "timestamp": "2026-04-18T06:48:25.960594+00:00",
+    "eval_count": 57,
     "error_count": 1,
-    "last_latency": 2.52,
+    "last_latency": 2.38,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
         "KXHIGHCHI",
-        "KXHIGHTBOS"
+        "KXHIGHNY"
       ],
       "widen_spread": {
+        "KXHIGHTBOS": 0.04,
         "KXHIGHAUS": 0.03,
-        "KXHIGHTDAL": 0.02,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHPHIL": 0.02,
-        "KXHIGHTOKC": 0.02,
-        "KXHIGHTSATX": 0.02,
-        "KXHIGHLAX": 0.02
+        "KXHIGHMIA": 0.03,
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHTSEA": 0.03,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHPHIL": 0.02
       },
-      "notes": "Top 3 series (NY 18%, CHI 16%, BOS 14%) show severe adverse selection\u2014skip. Widen remaining high-adverse candidates by 2-3 cents. CPI/PPI/PCE/Payrolls/FOMC in next 7d adds macro risk; weather markets less sensitive but still elevated."
+      "notes": "Skip KXHIGHCHI (16 adverse fills, ultra-tight spreads) and KXHIGHNY (18 adverse fills). Widen spreads on other high-adverse series. No imminent econ data today; CPI drops 2026-04-10."
     }
   },
-  "bot_uptime": "26h45m",
+  "bot_uptime": "30h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
