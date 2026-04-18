@@ -87,3 +87,4 @@
 {"timestamp": "2026-04-18T10:55:04.244975+00:00", "portfolio": 0.26, "cash": 40.15, "position_count": 1, "round_trips": 0, "pnl_24h": 0.0, "fills_24h": 0, "adverse_rate": 38.8}
 {"timestamp": "2026-04-18T14:55:06.644831+00:00", "portfolio": 0.26, "cash": 40.15, "position_count": 1, "round_trips": 0, "pnl_24h": 0.0, "fills_24h": 0, "adverse_rate": 38.9}
 {"timestamp": "2026-04-18T18:55:07.222423+00:00", "portfolio": 0.26, "cash": 40.15, "position_count": 1, "round_trips": 0, "pnl_24h": 0.0, "fills_24h": 0, "adverse_rate": 39.7}
+{"timestamp": "2026-04-18T22:55:08.702608+00:00", "portfolio": 0.26, "cash": 40.15, "position_count": 1, "round_trips": 0, "pnl_24h": 0.0, "fills_24h": 0, "adverse_rate": 38.6}
