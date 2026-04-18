@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-18T10:55:04.244975+00:00",
+  "timestamp": "2026-04-18T14:55:06.644831+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -42,17 +42,17 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 373,
-    "buys": 148,
-    "sells": 225,
-    "pnl": -15.3304,
-    "fill_rate_per_hour": 2.22
+    "fills": 367,
+    "buys": 145,
+    "sells": 222,
+    "pnl": -15.7304,
+    "fill_rate_per_hour": 2.18
   },
   "fills_total": 571,
   "adverse": {
-    "total": 327,
-    "adverse": 127,
-    "rate": 38.8,
+    "total": 321,
+    "adverse": 125,
+    "rate": 38.9,
     "worst_market": "KXHIGHCHI-26APR12-B80.5",
     "worst_count": 9
   },
@@ -197,24 +197,37 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-18T10:27:56.928571+00:00",
-    "eval_count": 64,
+    "timestamp": "2026-04-18T14:43:45.308020+00:00",
+    "eval_count": 72,
     "error_count": 1,
-    "last_latency": 2.03,
+    "last_latency": 3.98,
     "overrides": {
       "skip_series": [
+        "KXHIGHNY",
         "KXHIGHCHI",
-        "KXHIGHNY"
+        "KXHIGHTBOS",
+        "KXHIGHAUS"
       ],
       "widen_spread": {
-        "KXHIGHTBOS": 0.04,
-        "KXHIGHAUS": 0.03,
-        "KXHIGHMIA": 0.03
+        "KXHIGHMIA": 0.03,
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHPHIL": 0.02,
+        "KXHIGHTMIN": 0.02,
+        "KXHIGHLAX": 0.02,
+        "KXHIGHTPHX": 0.01,
+        "KXHIGHTSATX": 0.01,
+        "KXHIGHTOKC": 0.01,
+        "KXHIGHTLV": 0.01,
+        "KXHIGHDEN": 0.01,
+        "KXHIGHTSF\u041e": 0.01
       },
-      "notes": "KXHIGHCHI (16 adverse fills, 0.01 spread) and KXHIGHNY (18 adverse fills, ultra-tight spreads) showing severe informed trading. Widen top 3 other high-adverse series. CPI/PPI/PCE ahead; weather markets stable."
+      "notes": "Skip top 4 series: adverse rates 12-18% indicate informed picking. Widen others proportionally to adverse rate. CPI/PPI in 48h adds general risk. Existing MIA position already exposed."
     }
   },
-  "bot_uptime": "34h45m",
+  "bot_uptime": "38h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
