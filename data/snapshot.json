@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-18T06:55:03.667434+00:00",
+  "timestamp": "2026-04-18T10:55:04.244975+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -197,10 +197,10 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-18T06:48:25.960594+00:00",
-    "eval_count": 57,
+    "timestamp": "2026-04-18T10:27:56.928571+00:00",
+    "eval_count": 64,
     "error_count": 1,
-    "last_latency": 2.38,
+    "last_latency": 2.03,
     "overrides": {
       "skip_series": [
         "KXHIGHCHI",
@@ -209,16 +209,12 @@
       "widen_spread": {
         "KXHIGHTBOS": 0.04,
         "KXHIGHAUS": 0.03,
-        "KXHIGHMIA": 0.03,
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHTSEA": 0.03,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHPHIL": 0.02
+        "KXHIGHMIA": 0.03
       },
-      "notes": "Skip KXHIGHCHI (16 adverse fills, ultra-tight spreads) and KXHIGHNY (18 adverse fills). Widen spreads on other high-adverse series. No imminent econ data today; CPI drops 2026-04-10."
+      "notes": "KXHIGHCHI (16 adverse fills, 0.01 spread) and KXHIGHNY (18 adverse fills, ultra-tight spreads) showing severe informed trading. Widen top 3 other high-adverse series. CPI/PPI/PCE ahead; weather markets stable."
     }
   },
-  "bot_uptime": "30h45m",
+  "bot_uptime": "34h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
