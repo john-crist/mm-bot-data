@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T22:55:08.197750+00:00",
+  "timestamp": "2026-04-18T02:55:06.338183+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -197,27 +197,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-17T22:44:57.672070+00:00",
-    "eval_count": 42,
+    "timestamp": "2026-04-18T02:30:54.344468+00:00",
+    "eval_count": 49,
     "error_count": 1,
-    "last_latency": 2.48,
+    "last_latency": 2.52,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI",
         "KXHIGHNY",
+        "KXHIGHCHI",
         "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHMIA": 0.04,
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHATL": 0.02,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTPHX": 0.02
+        "KXHIGHAUS": 0.03,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHPHIL": 0.02,
+        "KXHIGHTOKC": 0.02,
+        "KXHIGHTSATX": 0.02,
+        "KXHIGHLAX": 0.02
       },
-      "notes": "Overall adverse rate 37.9% is elevated. Skip CHI/NY/BOS (highest adverse rates 16-18%). Widen MIA (position + adverse), DAL/ATL/SEA (12-8% adverse). Accept TSF/LV/PHX short-term with modest widening. Weather markets stable."
+      "notes": "Top 3 series (NY 18%, CHI 16%, BOS 14%) show severe adverse selection\u2014skip. Widen remaining high-adverse candidates by 2-3 cents. CPI/PPI/PCE/Payrolls/FOMC in next 7d adds macro risk; weather markets less sensitive but still elevated."
     }
   },
-  "bot_uptime": "22h45m",
+  "bot_uptime": "26h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
