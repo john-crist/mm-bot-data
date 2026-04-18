@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-18T14:55:06.644831+00:00",
+  "timestamp": "2026-04-18T18:55:07.222423+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -42,17 +42,17 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 367,
-    "buys": 145,
-    "sells": 222,
-    "pnl": -15.7304,
-    "fill_rate_per_hour": 2.18
+    "fills": 357,
+    "buys": 143,
+    "sells": 214,
+    "pnl": -11.7204,
+    "fill_rate_per_hour": 2.12
   },
   "fills_total": 571,
   "adverse": {
-    "total": 321,
-    "adverse": 125,
-    "rate": 38.9,
+    "total": 312,
+    "adverse": 124,
+    "rate": 39.7,
     "worst_market": "KXHIGHCHI-26APR12-B80.5",
     "worst_count": 9
   },
@@ -197,37 +197,31 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-18T14:43:45.308020+00:00",
-    "eval_count": 72,
+    "timestamp": "2026-04-18T18:28:48.886155+00:00",
+    "eval_count": 79,
     "error_count": 1,
-    "last_latency": 3.98,
+    "last_latency": 2.53,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
         "KXHIGHCHI",
-        "KXHIGHTBOS",
-        "KXHIGHAUS"
+        "KXHIGHNY",
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
+        "KXHIGHTATL": 0.04,
         "KXHIGHMIA": 0.03,
+        "KXHIGHTSEA": 0.03,
+        "KXHIGHPHIL": 0.03,
         "KXHIGHTDC": 0.02,
-        "KXHIGHTDAL": 0.02,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHPHIL": 0.02,
-        "KXHIGHTMIN": 0.02,
         "KXHIGHLAX": 0.02,
-        "KXHIGHTPHX": 0.01,
-        "KXHIGHTSATX": 0.01,
-        "KXHIGHTOKC": 0.01,
-        "KXHIGHTLV": 0.01,
-        "KXHIGHDEN": 0.01,
-        "KXHIGHTSF\u041e": 0.01
+        "KXHIGHTPHX": 0.02,
+        "KXHIGHDEN": 0.02,
+        "KXHIGHTSFO": 0.02
       },
-      "notes": "Skip top 4 series: adverse rates 12-18% indicate informed picking. Widen others proportionally to adverse rate. CPI/PPI in 48h adds general risk. Existing MIA position already exposed."
+      "notes": "KXHIGHNY (18 adverse fills), KXHIGHCHI (16), KXHIGHTBOS (14) show severe adverse selection \u2014 skip entirely. Widen spreads on remaining high-adverse series (12-7 fills). CPI release in 11 hrs \u2014 weather volatility unlikely but wider spreads protect inventory."
     }
   },
-  "bot_uptime": "38h45m",
+  "bot_uptime": "42h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
