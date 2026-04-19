@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-19T14:55:05.483908+00:00",
+  "timestamp": "2026-04-19T18:55:06.818740+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -42,65 +42,21 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 257,
-    "buys": 110,
-    "sells": 147,
-    "pnl": -8.6901,
-    "fill_rate_per_hour": 1.53
+    "fills": 117,
+    "buys": 43,
+    "sells": 74,
+    "pnl": -6.4,
+    "fill_rate_per_hour": 0.7
   },
   "fills_total": 571,
   "adverse": {
-    "total": 233,
-    "adverse": 90,
-    "rate": 38.6,
-    "worst_market": "KXHIGHNY-26APR12-B58.5",
-    "worst_count": 8
+    "total": 93,
+    "adverse": 27,
+    "rate": 29.0,
+    "worst_market": "KXHIGHTDAL-26APR12-B75.5",
+    "worst_count": 3
   },
   "paused_markets": [
-    {
-      "market_id": "KXHIGHNY-26APR12-B58.5",
-      "adverse_count": 8
-    },
-    {
-      "market_id": "KXHIGHCHI-26APR12-B80.5",
-      "adverse_count": 5
-    },
-    {
-      "market_id": "KXHIGHTBOS-26APR12-B51.5",
-      "adverse_count": 5
-    },
-    {
-      "market_id": "KXHIGHMIA-26APR12-B79.5",
-      "adverse_count": 5
-    },
-    {
-      "market_id": "KXHIGHLAX-26APR12-B65.5",
-      "adverse_count": 4
-    },
-    {
-      "market_id": "KXHIGHPHIL-26APR12-B67.5",
-      "adverse_count": 3
-    },
-    {
-      "market_id": "KXHIGHTSEA-26APR12-B58.5",
-      "adverse_count": 3
-    },
-    {
-      "market_id": "KXHIGHTATL-26APR12-B85.5",
-      "adverse_count": 3
-    },
-    {
-      "market_id": "KXHIGHTDAL-26APR12-B77.5",
-      "adverse_count": 3
-    },
-    {
-      "market_id": "KXHIGHTSATX-26APR12-B82.5",
-      "adverse_count": 3
-    },
-    {
-      "market_id": "KXHIGHTDC-26APR12-B70.5",
-      "adverse_count": 3
-    },
     {
       "market_id": "KXHIGHTDAL-26APR12-B75.5",
       "adverse_count": 3
@@ -173,27 +129,26 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-19T14:32:17.287050+00:00",
-    "eval_count": 116,
+    "timestamp": "2026-04-19T18:50:47.396965+00:00",
+    "eval_count": 124,
     "error_count": 1,
-    "last_latency": 3.31,
+    "last_latency": 1.88,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI",
-        "KXHIGHNY"
+        "KXHIGHCHI-26APR1",
+        "KXHIGHNY-26APR1",
+        "KXHIGHTBOS-26APR1"
       ],
       "widen_spread": {
-        "KXHIGHMIA": 0.04,
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHAUS": 0.03,
-        "KXHIGHTSEA": 0.03,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTATL": 0.02
+        "KXHIGHAUS": 0.04,
+        "KXHIGHTDAL": 0.05,
+        "KXHIGHMIA": 0.03,
+        "KXHIGHTSEA": 0.04
       },
-      "notes": "KXHIGHCHI (16 adverse picks) and KXHIGHNY (18 picks, worst offender) show severe informed trader activity\u2014skip entirely. Widen spreads on remaining high-adverse series. Weather data releases (CPI 4/10, payrolls 5/2) are 7+ days out; current risk is adverse selection, not upcoming volatility."
+      "notes": "High adverse selection (37.9% overall, worst in KXHIGHCHI/NY/TBOS). Skip worst 3 series. Widen spreads on top adverse offenders. CPI tomorrow 08:30 ET may amplify volatility. Monitor closely."
     }
   },
-  "bot_uptime": "62h45m",
+  "bot_uptime": "66h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
