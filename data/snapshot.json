@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-19T06:55:02.060062+00:00",
+  "timestamp": "2026-04-19T10:55:04.830593+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -197,26 +197,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-19T06:28:53.448136+00:00",
-    "eval_count": 101,
+    "timestamp": "2026-04-19T10:46:15.869484+00:00",
+    "eval_count": 109,
     "error_count": 1,
-    "last_latency": 2.33,
+    "last_latency": 3.04,
     "overrides": {
       "skip_series": [
+        "KXHIGHNY",
         "KXHIGHCHI",
-        "KXHIGHNY"
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHMIA": 0.04,
+        "KXHIGHTDAL": 0.04,
+        "KXHIGHMIA": 0.06,
+        "KXHIGHTDC": 0.05,
+        "KXHIGHAUS": 0.04,
+        "KXHIGHTSEA": 0.03,
         "KXHIGHTATL": 0.03,
-        "KXHIGHAUS": 0.03,
-        "KXHIGHTDC": 0.03,
-        "KXHIGHPHIL": 0.02
+        "KXHIGHPHIL": 0.03,
+        "KXHIGHLAX": 0.02
       },
-      "notes": "KXHIGHCHI (16 adverse fills) and KXHIGHNY (18 adverse fills) show severe informed-trader picking. Skip both. Widen spreads on remaining high-adverse series (KXHIGHMIA 11, KXHIGHTATL 7, KXHIGHAUS 12, KXHIGHTDC 8, KXHIGHPHIL 7). CPI tomorrow (08:30 ET) is also a headwind."
+      "notes": "KXHIGHNY/CHI/TBOS show extreme adverse rates (18/16/14%) with near-zero spreads\u2014skip to avoid informed flow. Widen spreads on remaining high-adverse series (12\u20138% rates). CPI tomorrow raises general caution. Weather series safe."
     }
   },
-  "bot_uptime": "54h45m",
+  "bot_uptime": "58h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
