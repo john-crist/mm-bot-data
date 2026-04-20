@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-20T10:55:03.816307+00:00",
+  "timestamp": "2026-04-20T14:55:06.465404+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -42,17 +42,17 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 95,
-    "buys": 32,
-    "sells": 63,
-    "pnl": -6.84,
-    "fill_rate_per_hour": 0.57
+    "fills": 80,
+    "buys": 19,
+    "sells": 61,
+    "pnl": -4.58,
+    "fill_rate_per_hour": 0.48
   },
   "fills_total": 571,
   "adverse": {
-    "total": 74,
-    "adverse": 18,
-    "rate": 24.3,
+    "total": 59,
+    "adverse": 15,
+    "rate": 25.4,
     "worst_market": "KXHIGHCHI-26APR13-B78.5",
     "worst_count": 2
   },
@@ -124,27 +124,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-20T10:25:32.571711+00:00",
-    "eval_count": 153,
+    "timestamp": "2026-04-20T14:40:52.011434+00:00",
+    "eval_count": 161,
     "error_count": 1,
-    "last_latency": 2.22,
+    "last_latency": 2.31,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
         "KXHIGHCHI",
+        "KXHIGHNY",
         "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.04,
-        "KXHIGHMIA": 0.03,
-        "KXHIGHTDAL": 0.04,
-        "KXHIGHTATL": 0.03,
-        "KXHIGHTDC": 0.02
+        "KXHIGHMIA": 0.04,
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHPHIL": 0.04,
+        "KXHIGHAUS": 0.02,
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTATL": 0.02
       },
-      "notes": "High adverse selection across temp markets (37.9% rate). Skip top-3 offenders (NY:18%, CHI:16%, BOS:14%). Widen spreads on elevated adverse series. CPI release in 1 day increases risk further."
+      "notes": "High adverse selection (37.9%) concentrated in CHI/NY/BOS. Skip worst three. Widen spreads on remaining high-adverse series. CPI in 2 days risks equity volatility; weather markets inherently stable."
     }
   },
-  "bot_uptime": "82h45m",
+  "bot_uptime": "86h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
