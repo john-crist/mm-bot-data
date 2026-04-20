@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-19T22:55:05.558104+00:00",
+  "timestamp": "2026-04-20T02:55:09.458511+00:00",
   "balance": {
     "cash": 40.15,
     "portfolio": 0.26
@@ -42,17 +42,17 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 98,
-    "buys": 33,
-    "sells": 65,
-    "pnl": -6.12,
-    "fill_rate_per_hour": 0.58
+    "fills": 96,
+    "buys": 32,
+    "sells": 64,
+    "pnl": -6.42,
+    "fill_rate_per_hour": 0.57
   },
   "fills_total": 571,
   "adverse": {
-    "total": 77,
+    "total": 75,
     "adverse": 18,
-    "rate": 23.4,
+    "rate": 24.0,
     "worst_market": "KXHIGHCHI-26APR13-B78.5",
     "worst_count": 2
   },
@@ -124,28 +124,27 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-19T22:36:19.730249+00:00",
-    "eval_count": 131,
+    "timestamp": "2026-04-20T02:25:10.734460+00:00",
+    "eval_count": 138,
     "error_count": 1,
-    "last_latency": 2.16,
+    "last_latency": 2.5,
     "overrides": {
       "skip_series": [
         "KXHIGHCHI",
         "KXHIGHNY"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.03,
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTOKC": 0.03,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTLV": 0.02,
-        "KXHIGHTPHX": 0.02
+        "KXHIGHMIA": 0.03,
+        "KXHIGHTSEA": 0.03,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHTDC": 0.02,
+        "KXHIGHLAX": 0.01,
+        "KXHIGHTATL": 0.01
       },
-      "notes": "KXHIGHCHI (16 adverse fills) & KXHIGHNY (18 adverse fills) showing severe adverse selection\u2014skip both. Widen spreads on top-7 adverse series by 1.5\u20132 cents. Portfolio light; no macro events imminent today."
+      "notes": "KXHIGHCHI (16 adverse fills) and KXHIGHNY (18 adverse fills) show severe informed trader picking. Skip both. Widen spreads on remaining high-adverse series (MIA, TSEA, TDAL, TDC). CPI/PPI releases 2026-04-10/11 create macro uncertainty; weather mkt spreads safe. No immediate econ shock but elevated caution warranted."
     }
   },
-  "bot_uptime": "70h45m",
+  "bot_uptime": "74h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
