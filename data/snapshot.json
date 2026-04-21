@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T02:55:05.417097+00:00",
+  "timestamp": "2026-04-21T06:55:03.359372+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,27 +107,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-21T02:45:00.053099+00:00",
-    "eval_count": 184,
+    "timestamp": "2026-04-21T06:30:52.388336+00:00",
+    "eval_count": 191,
     "error_count": 1,
-    "last_latency": 2.47,
+    "last_latency": 3.7,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI",
-        "KXHIGHNY"
+        "KXHIGHCHI-26APR1",
+        "KXHIGHNY-26APR1",
+        "KXHIGHCHI-26APR2",
+        "KXHIGHMIA-26APR1"
       ],
       "widen_spread": {
-        "KXHIGHTBOS": 0.02,
+        "KXHIGHCHI": 0.03,
+        "KXHIGHNY": 0.03,
+        "KXHIGHMIA": 0.02,
         "KXHIGHAUS": 0.02,
-        "KXHIGHMIA": 0.03,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTDAL": 0.02,
-        "KXHIGHTSATX": 0.02
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHTDAL": 0.02
       },
-      "notes": "KXHIGHCHI (16 adverse picks) and KXHIGHNY (18 picks, worst series) show extreme informed trader activity\u2014skip both. Widen spreads 2-3\u00a2 on top-10 adverse series. No imminent econ data risk (CPI 4/10, distant). Weather markets inherently low-adverse."
+      "notes": "Adverse rate 37.9% is elevated. NY/CHI/MIA show persistent informed flow (18-16 adverse fills). Widen top offenders; skip narrowest spreads in highest-adverse series to reduce pick-off risk on weather temperature contracts."
     }
   },
-  "bot_uptime": "98h45m",
+  "bot_uptime": "102h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
