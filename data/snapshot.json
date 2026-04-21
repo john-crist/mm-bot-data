@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-20T22:55:08.084155+00:00",
+  "timestamp": "2026-04-21T02:55:05.417097+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,27 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-20T22:31:33.569274+00:00",
-    "eval_count": 176,
+    "timestamp": "2026-04-21T02:45:00.053099+00:00",
+    "eval_count": 184,
     "error_count": 1,
-    "last_latency": 2.24,
+    "last_latency": 2.47,
     "overrides": {
       "skip_series": [
         "KXHIGHCHI",
-        "KXHIGHNY",
-        "KXHIGHTBOS"
+        "KXHIGHNY"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.03,
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHAUS": 0.02,
+        "KXHIGHMIA": 0.03,
+        "KXHIGHTDC": 0.02,
         "KXHIGHTDAL": 0.02,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTMIN": 0.02,
-        "KXHIGHTLV": 0.01,
-        "KXHIGHTSFO": 0.01
+        "KXHIGHTSATX": 0.02
       },
-      "notes": "High adverse rate (37.9%) driven by NY/CHI/BOS (16-18% each). Skip top 3 worst offenders. Widen spreads on remaining elevated-risk series (12-14% adverse). Weather markets safe."
+      "notes": "KXHIGHCHI (16 adverse picks) and KXHIGHNY (18 picks, worst series) show extreme informed trader activity\u2014skip both. Widen spreads 2-3\u00a2 on top-10 adverse series. No imminent econ data risk (CPI 4/10, distant). Weather markets inherently low-adverse."
     }
   },
-  "bot_uptime": "94h45m",
+  "bot_uptime": "98h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
