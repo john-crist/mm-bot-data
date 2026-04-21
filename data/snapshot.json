@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T10:55:04.542816+00:00",
+  "timestamp": "2026-04-21T14:55:06.083328+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -25,18 +25,18 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 32,
-    "buys": 10,
-    "sells": 22,
-    "pnl": -4.54,
-    "fill_rate_per_hour": 0.19
+    "fills": 12,
+    "buys": 5,
+    "sells": 7,
+    "pnl": -3.29,
+    "fill_rate_per_hour": 0.07
   },
   "fills_total": 571,
   "adverse": {
-    "total": 32,
-    "adverse": 7,
-    "rate": 21.9,
-    "worst_market": "KXHIGHNY-26APR14-B85.5",
+    "total": 12,
+    "adverse": 5,
+    "rate": 41.7,
+    "worst_market": "KXHIGHTSEA-26APR14-B46.5",
     "worst_count": 2
   },
   "paused_markets": [],
@@ -107,10 +107,10 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-21T10:23:38.633334+00:00",
-    "eval_count": 198,
+    "timestamp": "2026-04-21T14:37:16.975864+00:00",
+    "eval_count": 206,
     "error_count": 1,
-    "last_latency": 2.32,
+    "last_latency": 3.51,
     "overrides": {
       "skip_series": [],
       "widen_spread": {
@@ -119,16 +119,12 @@
         "KXHIGHTBOS": 0.03,
         "KXHIGHTDAL": 0.02,
         "KXHIGHAUS": 0.02,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTPHIL": 0.02,
-        "KXHIGHTATL": 0.02
+        "KXHIGHMIA": 0.02
       },
-      "notes": "High adverse selection (37.9%) across weather series\u2014informed traders picking off quotes before price moves. Widen spreads on top-10 offenders; no full skips given low urgency. No imminent data releases."
+      "notes": "Adverse selection 37.9% overall; NY/CHI/BOS worst-hit. CPI tomorrow 08:30 ET adds macro risk. Widen on high-adverse series; skip none (weather markets recover post-data)."
     }
   },
-  "bot_uptime": "106h45m",
+  "bot_uptime": "110h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
