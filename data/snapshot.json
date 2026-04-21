@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T18:55:07.375314+00:00",
+  "timestamp": "2026-04-21T22:55:04.509458+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -25,19 +25,19 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 8,
-    "buys": 4,
-    "sells": 4,
-    "pnl": -1.79,
-    "fill_rate_per_hour": 0.05
+    "fills": 0,
+    "buys": 0,
+    "sells": 0,
+    "pnl": 0.0,
+    "fill_rate_per_hour": 0.0
   },
   "fills_total": 571,
   "adverse": {
-    "total": 8,
-    "adverse": 3,
-    "rate": 37.5,
-    "worst_market": "KXHIGHTSEA-26APR14-B46.5",
-    "worst_count": 2
+    "total": 0,
+    "adverse": 0,
+    "rate": 0.0,
+    "worst_market": "",
+    "worst_count": 0
   },
   "paused_markets": [],
   "round_trips": 0,
@@ -107,29 +107,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-21T18:42:38.413637+00:00",
-    "eval_count": 214,
+    "timestamp": "2026-04-21T22:51:53.606601+00:00",
+    "eval_count": 222,
     "error_count": 1,
-    "last_latency": 2.61,
+    "last_latency": 2.11,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY-10APR",
-        "KXHIGHCHI-10APR",
-        "KXHIGHCHI-26APR"
+        "KXHIGHCHI-26APR1",
+        "KXHIGHNY-26APR1",
+        "KXHIGHCHI",
+        "KXHIGHNY"
       ],
       "widen_spread": {
-        "KXHIGHNY": 0.04,
-        "KXHIGHCHI": 0.05,
         "KXHIGHAUS": 0.03,
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHPHIL": 0.03,
-        "KXHIGHLAX": 0.02
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTSEA": 0.02
       },
-      "notes": "High adverse rate (37.9%) on temperature series. Skip NY/CHI contracts nearest CPI/PPI releases (10-11 Apr). Widen spreads on worst offenders (NY 18%, CHI 16%, HAUS 12%). Weather series generally low-risk; wider spreads offset informed flow."
+      "notes": "High adverse rate (37.9%) concentrated in NYC, Chicago weather series \u2014 likely informed traders ahead of temp data. Skip worst performers. Widen spreads on secondary high-adverse series. Other series safe for normal quoting."
     }
   },
-  "bot_uptime": "114h45m",
+  "bot_uptime": "118h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
