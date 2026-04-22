@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-22T06:55:03.232824+00:00",
+  "timestamp": "2026-04-22T10:55:03.290254+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-22T06:23:43.563307+00:00",
-    "eval_count": 236,
+    "timestamp": "2026-04-22T10:36:12.436753+00:00",
+    "eval_count": 244,
     "error_count": 1,
-    "last_latency": 3.29,
+    "last_latency": 2.71,
     "overrides": {
       "skip_series": [
         "KXHIGHCHI",
-        "KXHIGHNY"
+        "KXHIGHNY",
+        "KXHIGHTBOS",
+        "KXHIGHTDAL",
+        "KXHIGHAUS"
       ],
       "widen_spread": {
-        "KXHIGHMIA": 0.03,
-        "KXHIGHTBOS": 0.02,
-        "KXHIGHAUS": 0.03,
-        "KXHIGHTDC": 0.03,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTSEA": 0.02,
         "KXHIGHTATL": 0.02,
-        "KXHIGHTDAL": 0.02,
-        "KXHIGHTSEA": 0.02
+        "KXHIGHTOKC": 0.02,
+        "KXHIGHLAX": 0.01
       },
-      "notes": "KXHIGHCHI (16 adverse fills) and KXHIGHNY (18 adverse fills) show severe adverse selection\u2014skip entirely. Widen spreads on remaining top-10 adverse series. CPI/PPI releases Apr 10\u201311 are 1\u20132 days out; weather markets unaffected but monitor tightly."
+      "notes": "37.9% adverse rate is critical. Skip top 5 series (16-18 adverse fills each). Widen spreads on secondary offenders (7-12 fills) to discourage informed traders. No macro releases until 2026-04-10; current adverse selection is market-driven, not release-driven."
     }
   },
-  "bot_uptime": "126h45m",
+  "bot_uptime": "130h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
