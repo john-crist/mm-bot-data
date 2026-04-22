@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-22T14:55:06.887815+00:00",
+  "timestamp": "2026-04-22T18:55:07.678671+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,24 +107,31 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-22T14:52:48.529484+00:00",
-    "eval_count": 251,
+    "timestamp": "2026-04-22T18:37:38.306601+00:00",
+    "eval_count": 258,
     "error_count": 2,
-    "last_latency": 1.98,
+    "last_latency": 2.29,
     "overrides": {
-      "skip_series": [],
+      "skip_series": [
+        "KXHIGHNY",
+        "KXHIGHCHI",
+        "KXHIGHAUS"
+      ],
       "widen_spread": {
-        "KXHIGHNY": 0.02,
-        "KXHIGHCHI": 0.02,
-        "KXHIGHTBOS": 0.02,
-        "KXHIGHTDAL": 0.01,
-        "KXHIGHAUS": 0.01,
-        "KXHIGHMIA": 0.01
+        "KXHIGHMIA": 0.04,
+        "KXHIGHTDC": 0.04,
+        "KXHIGHLAX": 0.03,
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHTATL": 0.03,
+        "KXHIGHTPHX": 0.03,
+        "KXHIGHTSATX": 0.04,
+        "KXHIGHTMIN": 0.03,
+        "KXHIGHTOKC": 0.02
       },
-      "notes": "Elevated adverse selection (37.9%) on weather series, especially NY/CHI/BOS. Widen spreads on top offenders. No economic data conflicts this week. Weather markets typically slow; adverse rates suggest informed traders. Monitor closely."
+      "notes": "High adverse rate (37.9%) concentrated in NY/CHI/HOU markets \u2014 skip top 3. Widen spreads on remaining high-adverse series. No imminent econ data today. Weather/sports fundamentals normal."
     }
   },
-  "bot_uptime": "134h45m",
+  "bot_uptime": "138h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
