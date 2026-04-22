@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-22T10:55:03.290254+00:00",
+  "timestamp": "2026-04-22T14:55:06.887815+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,30 +107,24 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-22T10:36:12.436753+00:00",
-    "eval_count": 244,
-    "error_count": 1,
-    "last_latency": 2.71,
+    "timestamp": "2026-04-22T14:52:48.529484+00:00",
+    "eval_count": 251,
+    "error_count": 2,
+    "last_latency": 1.98,
     "overrides": {
-      "skip_series": [
-        "KXHIGHCHI",
-        "KXHIGHNY",
-        "KXHIGHTBOS",
-        "KXHIGHTDAL",
-        "KXHIGHAUS"
-      ],
+      "skip_series": [],
       "widen_spread": {
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHTOKC": 0.02,
-        "KXHIGHLAX": 0.01
+        "KXHIGHNY": 0.02,
+        "KXHIGHCHI": 0.02,
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHTDAL": 0.01,
+        "KXHIGHAUS": 0.01,
+        "KXHIGHMIA": 0.01
       },
-      "notes": "37.9% adverse rate is critical. Skip top 5 series (16-18 adverse fills each). Widen spreads on secondary offenders (7-12 fills) to discourage informed traders. No macro releases until 2026-04-10; current adverse selection is market-driven, not release-driven."
+      "notes": "Elevated adverse selection (37.9%) on weather series, especially NY/CHI/BOS. Widen spreads on top offenders. No economic data conflicts this week. Weather markets typically slow; adverse rates suggest informed traders. Monitor closely."
     }
   },
-  "bot_uptime": "130h45m",
+  "bot_uptime": "134h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
