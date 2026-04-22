@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-22T02:55:09.217539+00:00",
+  "timestamp": "2026-04-22T06:55:03.232824+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,29 +107,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-22T02:32:30.094287+00:00",
-    "eval_count": 229,
+    "timestamp": "2026-04-22T06:23:43.563307+00:00",
+    "eval_count": 236,
     "error_count": 1,
-    "last_latency": 2.29,
+    "last_latency": 3.29,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
         "KXHIGHCHI",
-        "KXHIGHTBOS"
+        "KXHIGHNY"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.04,
         "KXHIGHMIA": 0.03,
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHTSEA": 0.03,
-        "KXHIGHTOKC": 0.03,
-        "KXHIGHTPHX": 0.02,
-        "KXHIGHPHIL": 0.02
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHAUS": 0.03,
+        "KXHIGHTDC": 0.03,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHTSEA": 0.02
       },
-      "notes": "High adverse rate (37.9%) signals informed traders. Skip top 3 worst offenders (NY, CHI, BOS). Widen spreads on other elevated adverse series. Weather markets (LAX, DEN, etc.) remain tight."
+      "notes": "KXHIGHCHI (16 adverse fills) and KXHIGHNY (18 adverse fills) show severe adverse selection\u2014skip entirely. Widen spreads on remaining top-10 adverse series. CPI/PPI releases Apr 10\u201311 are 1\u20132 days out; weather markets unaffected but monitor tightly."
     }
   },
-  "bot_uptime": "122h45m",
+  "bot_uptime": "126h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
