@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T22:55:04.509458+00:00",
+  "timestamp": "2026-04-22T02:55:09.217539+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-21T22:51:53.606601+00:00",
-    "eval_count": 222,
+    "timestamp": "2026-04-22T02:32:30.094287+00:00",
+    "eval_count": 229,
     "error_count": 1,
-    "last_latency": 2.11,
+    "last_latency": 2.29,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI-26APR1",
-        "KXHIGHNY-26APR1",
+        "KXHIGHNY",
         "KXHIGHCHI",
-        "KXHIGHNY"
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.03,
-        "KXHIGHTBOS": 0.02,
-        "KXHIGHTDAL": 0.02,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTSEA": 0.02
+        "KXHIGHAUS": 0.04,
+        "KXHIGHMIA": 0.03,
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHTSEA": 0.03,
+        "KXHIGHTOKC": 0.03,
+        "KXHIGHTPHX": 0.02,
+        "KXHIGHPHIL": 0.02
       },
-      "notes": "High adverse rate (37.9%) concentrated in NYC, Chicago weather series \u2014 likely informed traders ahead of temp data. Skip worst performers. Widen spreads on secondary high-adverse series. Other series safe for normal quoting."
+      "notes": "High adverse rate (37.9%) signals informed traders. Skip top 3 worst offenders (NY, CHI, BOS). Widen spreads on other elevated adverse series. Weather markets (LAX, DEN, etc.) remain tight."
     }
   },
-  "bot_uptime": "118h45m",
+  "bot_uptime": "122h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
