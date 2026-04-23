@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-22T22:55:08.408317+00:00",
+  "timestamp": "2026-04-23T02:55:08.187767+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-22T22:51:46.432232+00:00",
-    "eval_count": 266,
+    "timestamp": "2026-04-23T02:37:24.137134+00:00",
+    "eval_count": 273,
     "error_count": 2,
-    "last_latency": 2.51,
+    "last_latency": 2.37,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI-26APR1",
-        "KXHIGHNY-18APR1"
+        "KXHIGHNY",
+        "KXHIGHCHI",
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHCHI": 0.04,
-        "KXHIGHNY": 0.03,
-        "KXHIGHTBOS": 0.02,
-        "KXHIGHTDAL": 0.02,
-        "KXHIGHAUS": 0.02,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTSEA": 0.02
+        "KXHIGHMIA": 0.04,
+        "KXHIGHTDAL": 0.05,
+        "KXHIGHPHIL": 0.04,
+        "KXHIGHTDC": 0.06,
+        "KXHIGHTSEA": 0.04,
+        "KXHIGHAUS": 0.04,
+        "KXHIGHTOKC": 0.04
       },
-      "notes": "High adverse rate (37.9%) on weather series indicates informed traders. Skip worst performers KXHIGHCHI & KXHIGHNY with 16-18 adverse events. Widen spreads on top 7 offenders. CPI/PPI/Payrolls approaching\u2014avoid economic sensitivity."
+      "notes": "Skip top 3 adverse series (37.9% overall rate). Widen spreads on remaining elevated adverse names. Weather markets safe. No imminent econ data risk (CPI 4/10 is 5+ days out)."
     }
   },
-  "bot_uptime": "142h45m",
+  "bot_uptime": "146h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
