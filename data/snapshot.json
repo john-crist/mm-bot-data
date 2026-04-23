@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T18:55:06.314904+00:00",
+  "timestamp": "2026-04-23T22:55:05.086517+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,31 +107,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-23T18:39:38.733892+00:00",
-    "eval_count": 303,
+    "timestamp": "2026-04-23T22:21:40.545010+00:00",
+    "eval_count": 310,
     "error_count": 2,
-    "last_latency": 2.79,
+    "last_latency": 4.66,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI",
-        "KXHIGHNY",
-        "KXHIGHTBOS"
+        "KXHIGHCHI-26APR1"
       ],
       "widen_spread": {
-        "KXHIGHMIA": 0.04,
-        "KXHIGHAUS": 0.03,
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHPHIL": 0.02,
-        "KXHIGHLAX": 0.02,
-        "KXHIGHTMIN": 0.02,
-        "KXHIGHTSEA": 0.02
+        "KXHIGHNY": 0.03,
+        "KXHIGHCHI": 0.03,
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHAUS": 0.02,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTDC": 0.01,
+        "KXHIGHTSFO": 0.01,
+        "KXHIGHTPHX": 0.01
       },
-      "notes": "Skip top 3 adverse series (NY 37.8%, CHI 36.4%, BOS 35%). Widen spreads on mid-tier adverse names. No near-term econ data risk (CPI Apr 10, >24hrs away)."
+      "notes": "High adverse rate (37.9%) across NY/CHI/BOS weather markets. Skip worst outlier. Widen spreads on top adverse series by rank. CPI release 2026-04-10 08:30 ET is 6+ hrs away; monitor closely. Weather markets are slow-moving but adverse selection here suggests informed flow."
     }
   },
-  "bot_uptime": "162h45m",
+  "bot_uptime": "166h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
