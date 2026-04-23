@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T06:55:01.915537+00:00",
+  "timestamp": "2026-04-23T10:55:03.848232+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,14 +107,12 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-23T06:25:30.191341+00:00",
-    "eval_count": 280,
+    "timestamp": "2026-04-23T10:42:28.415145+00:00",
+    "eval_count": 288,
     "error_count": 2,
-    "last_latency": 3.07,
+    "last_latency": 2.43,
     "overrides": {
-      "skip_series": [
-        "KXHIGHCHI-26APR1"
-      ],
+      "skip_series": [],
       "widen_spread": {
         "KXHIGHNY": 0.04,
         "KXHIGHCHI": 0.03,
@@ -123,12 +121,15 @@
         "KXHIGHAUS": 0.02,
         "KXHIGHMIA": 0.02,
         "KXHIGHTDC": 0.02,
-        "KXHIGHTSEA": 0.02
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHPHIL": 0.02,
+        "KXHIGHTSFO": 0.03
       },
-      "notes": "High adverse rate (37.9%) concentrated in weather highs with informed traders. CPI tomorrow creates pre-event volatility. Widen top offenders; skip worst single contract. Monitor through data releases."
+      "notes": "High adverse rate (37.9%) on weather series. CPI/PPI releases in 1-2 days increase pickup risk. Widen spreads on high-adverse tickers; no outright skips given acceptable OI and 18+ hrs to events."
     }
   },
-  "bot_uptime": "150h45m",
+  "bot_uptime": "154h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
