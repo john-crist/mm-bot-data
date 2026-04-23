@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T14:55:04.337722+00:00",
+  "timestamp": "2026-04-23T18:55:06.314904+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,31 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-23T14:27:39.775967+00:00",
-    "eval_count": 295,
+    "timestamp": "2026-04-23T18:39:38.733892+00:00",
+    "eval_count": 303,
     "error_count": 2,
-    "last_latency": 2.58,
+    "last_latency": 2.79,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
         "KXHIGHCHI",
+        "KXHIGHNY",
         "KXHIGHTBOS"
       ],
       "widen_spread": {
+        "KXHIGHMIA": 0.04,
         "KXHIGHAUS": 0.03,
-        "KXHIGHMIA": 0.02,
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHTDC": 0.02,
         "KXHIGHPHIL": 0.02,
-        "KXHIGHDEN": 0.03,
-        "KXHIGHTMIN": 0.03,
-        "KXHIGHTSATX": 0.02
+        "KXHIGHLAX": 0.02,
+        "KXHIGHTMIN": 0.02,
+        "KXHIGHTSEA": 0.02
       },
-      "notes": "Skip top 3 adverse series (NY 18%, CHI 16%, BOS 14%). Widen spreads on mid-tier adverse offenders. CPI/PPI this week elevate general risk; no skip needed for non-weather series 7+ days out."
+      "notes": "Skip top 3 adverse series (NY 37.8%, CHI 36.4%, BOS 35%). Widen spreads on mid-tier adverse names. No near-term econ data risk (CPI Apr 10, >24hrs away)."
     }
   },
-  "bot_uptime": "158h45m",
+  "bot_uptime": "162h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
