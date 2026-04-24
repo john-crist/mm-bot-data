@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T14:55:03.404038+00:00",
+  "timestamp": "2026-04-24T18:55:07.271846+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,27 +107,26 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-24T14:26:08.548592+00:00",
-    "eval_count": 339,
+    "timestamp": "2026-04-24T18:42:18.329289+00:00",
+    "eval_count": 347,
     "error_count": 3,
-    "last_latency": 2.38,
+    "last_latency": 11.11,
     "overrides": {
-      "skip_series": [],
+      "skip_series": [
+        "KXHIGHCHI-26APR1"
+      ],
       "widen_spread": {
         "KXHIGHNY": 0.03,
         "KXHIGHCHI": 0.03,
-        "KXHIGHTBOS": 0.03,
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHTDAL": 0.02,
         "KXHIGHAUS": 0.02,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTMIN": 0.02,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHPHIL": 0.02
+        "KXHIGHMIA": 0.02
       },
-      "notes": "High adverse rate (37.9%) driven by weather series with informed traders. NY/CHI/BOS worst hit. Widen spreads on top 9 offenders; no skips needed since weather is stable and no econ data imminent until Apr 10."
+      "notes": "37.9% adverse rate is elevated. Top 6 series (NY, CHI, BOS, DAL, AUS, MIA) show 7-18 adverse fills each. CPI drops tomorrow 08:30 ET\u2014skip worst outlier; widen spreads on high-adverse series to reduce informed-trader pickup risk."
     }
   },
-  "bot_uptime": "182h45m",
+  "bot_uptime": "186h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
