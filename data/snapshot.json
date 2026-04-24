@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T06:55:02.434738+00:00",
+  "timestamp": "2026-04-24T10:55:04.718285+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,29 +107,24 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-24T05:57:59.784715+00:00",
-    "eval_count": 324,
-    "error_count": 2,
-    "last_latency": 2.4,
+    "timestamp": "2026-04-24T10:41:26.038699+00:00",
+    "eval_count": 332,
+    "error_count": 3,
+    "last_latency": 2.43,
     "overrides": {
-      "skip_series": [
-        "KXHIGHNY",
-        "KXHIGHCHI",
-        "KXHIGHTBOS",
-        "KXHIGHAUS",
-        "KXHIGHMIA"
-      ],
+      "skip_series": [],
       "widen_spread": {
-        "KXHIGHTDAL": 0.04,
-        "KXHIGHTSEA": 0.03,
-        "KXHIGHTDC": 0.03,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHPHIL": 0.02
+        "KXHIGHNY": 0.04,
+        "KXHIGHCHI": 0.03,
+        "KXHIGHTBOS": 0.03,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHAUS": 0.02,
+        "KXHIGHMIA": 0.02
       },
-      "notes": "High adverse rate (37.9%) driven by top 5 series. Skip worst offenders (NY 18, CHI 16, BOS 14, AUS 12, MIA 11). Widen spreads on mid-tier adverse series. No imminent econ releases today."
+      "notes": "High adverse rate (37.9%) concentrated in temperature markets. NY, Chicago, Boston show worst rates (16-18%). Widen spreads on top 6 offenders to reduce picking. No econ data before next trading window, so no series skipped."
     }
   },
-  "bot_uptime": "174h45m",
+  "bot_uptime": "178h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
