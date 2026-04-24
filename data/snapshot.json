@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T02:55:06.875888+00:00",
+  "timestamp": "2026-04-24T06:55:02.434738+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,31 +107,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-24T02:42:26.118482+00:00",
-    "eval_count": 318,
+    "timestamp": "2026-04-24T05:57:59.784715+00:00",
+    "eval_count": 324,
     "error_count": 2,
-    "last_latency": 3.34,
+    "last_latency": 2.4,
     "overrides": {
       "skip_series": [
         "KXHIGHNY",
         "KXHIGHCHI",
         "KXHIGHTBOS",
-        "KXHIGHTDAL"
+        "KXHIGHAUS",
+        "KXHIGHMIA"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.03,
-        "KXHIGHMIA": 0.03,
-        "KXHIGHPHIL": 0.03,
-        "KXHIGHLAX": 0.02,
-        "KXHIGHTTSEA": 0.02,
-        "KXHIGHDEN": 0.02,
-        "KXHIGHTLV": 0.02,
-        "KXHIGHTSFO": 0.02
+        "KXHIGHTDAL": 0.04,
+        "KXHIGHTSEA": 0.03,
+        "KXHIGHTDC": 0.03,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHPHIL": 0.02
       },
-      "notes": "37.9% adverse rate is dangerously high. NY/CHI/BOS/DAL show worst adverse picks and thin spreads\u2014skip entirely. Widen spreads on remaining candidates with elevated adverse counts. No imminent econ data but elevated tension warrants caution."
+      "notes": "High adverse rate (37.9%) driven by top 5 series. Skip worst offenders (NY 18, CHI 16, BOS 14, AUS 12, MIA 11). Widen spreads on mid-tier adverse series. No imminent econ releases today."
     }
   },
-  "bot_uptime": "170h45m",
+  "bot_uptime": "174h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
