@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T22:55:08.257985+00:00",
+  "timestamp": "2026-04-25T02:55:09.044676+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-24T22:27:03.800637+00:00",
-    "eval_count": 354,
+    "timestamp": "2026-04-25T02:42:05.100552+00:00",
+    "eval_count": 362,
     "error_count": 3,
-    "last_latency": 2.14,
+    "last_latency": 5.64,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI-26APR1",
-        "KXHIGHNY-18APR1"
+        "KXHIGHNY",
+        "KXHIGHCHI",
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHCHI": 0.03,
-        "KXHIGHNY": 0.02,
-        "KXHIGHTDAL": 0.02,
+        "KXHIGHMIA": 0.03,
+        "KXHIGHTDAL": 0.04,
+        "KXHIGHPHIL": 0.03,
         "KXHIGHAUS": 0.02,
-        "KXHIGHTSEA": 0.02,
         "KXHIGHTDC": 0.02,
-        "KXHIGHMIA": 0.02
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHLAX": 0.02
       },
-      "notes": "High adverse rate (37.9%) on weather series. KXHIGHCHI and KXHIGHNY show extreme adverse picks. Widen spreads on top adverse series; skip worst outliers. No imminent econ data today; monitor calendar for next week."
+      "notes": "High adverse selection (37.9%) concentrated in NY, CHI, BOS. Skip top-3 offenders. Widen spreads on elevated adverse series. Near-term CPI/PPI releases 2026-04-10/11 justify caution."
     }
   },
-  "bot_uptime": "190h45m",
+  "bot_uptime": "194h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
