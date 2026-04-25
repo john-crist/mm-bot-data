@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T18:55:03.828778+00:00",
+  "timestamp": "2026-04-25T22:55:07.954764+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,26 +107,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-25T18:40:03.137204+00:00",
-    "eval_count": 392,
+    "timestamp": "2026-04-25T22:26:32.738555+00:00",
+    "eval_count": 399,
     "error_count": 3,
-    "last_latency": 2.4,
+    "last_latency": 2.64,
     "overrides": {
-      "skip_series": [],
+      "skip_series": [
+        "KXHIGHCHI",
+        "KXHIGHNY"
+      ],
       "widen_spread": {
-        "KXHIGHNY": 0.04,
-        "KXHIGHCHI": 0.05,
-        "KXHIGHTBOS": 0.03,
-        "KXHIGHTDAL": 0.02,
         "KXHIGHAUS": 0.03,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTSEA": 0.02
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHTDC": 0.04,
+        "KXHIGHMIA": 0.03,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHTMIN": 0.02
       },
-      "notes": "High adverse selection across top 8 series (37.9% rate, KXHIGHNY at 18 fills). Weather markets are slow-moving; widen spreads proportionally to adverse rate. No imminent macro catalysts within 10hr window. Skip unnecessary\u2014all are weather hedges, not economic releases."
+      "notes": "KXHIGHCHI (16 adverse fills) and KXHIGHNY (18 adverse\u2014worst series) show extreme informed trader activity; skip both. Widen spreads on other high-adverse series (7\u201312 fills). Weather markets (KXHIGHTSEA, KXHIGHTSFO, KXHIGHTPHX, KXHIGHTLV) are clear. CPI/PPI/PCE/Payrolls/FOMC risk is distant (8+ days)."
     }
   },
-  "bot_uptime": "210h45m",
+  "bot_uptime": "214h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
