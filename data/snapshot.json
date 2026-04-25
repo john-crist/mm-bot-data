@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T14:55:06.092872+00:00",
+  "timestamp": "2026-04-25T18:55:03.828778+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,30 +107,26 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-25T14:26:44.565504+00:00",
-    "eval_count": 384,
+    "timestamp": "2026-04-25T18:40:03.137204+00:00",
+    "eval_count": 392,
     "error_count": 3,
-    "last_latency": 2.36,
+    "last_latency": 2.4,
     "overrides": {
-      "skip_series": [
-        "KXHIGHCHI-26APR1"
-      ],
+      "skip_series": [],
       "widen_spread": {
-        "KXHIGHNY": 0.03,
-        "KXHIGHCHI": 0.03,
+        "KXHIGHNY": 0.04,
+        "KXHIGHCHI": 0.05,
         "KXHIGHTBOS": 0.03,
         "KXHIGHTDAL": 0.02,
-        "KXHIGHAUS": 0.02,
+        "KXHIGHAUS": 0.03,
         "KXHIGHMIA": 0.02,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTDC": 0.01,
-        "KXHIGHTATL": 0.01,
-        "KXHIGHPHIL": 0.01
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTSEA": 0.02
       },
-      "notes": "Adverse rate 37.9% is elevated. NY/CHI/BOS show highest adverse counts (18/16/14). Widen spreads on top 10 worst series. Skip worst single series. CPI tomorrow 08:30 ET \u2014 no immediate impact but monitor."
+      "notes": "High adverse selection across top 8 series (37.9% rate, KXHIGHNY at 18 fills). Weather markets are slow-moving; widen spreads proportionally to adverse rate. No imminent macro catalysts within 10hr window. Skip unnecessary\u2014all are weather hedges, not economic releases."
     }
   },
-  "bot_uptime": "206h45m",
+  "bot_uptime": "210h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
