@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T06:55:02.067838+00:00",
+  "timestamp": "2026-04-25T10:55:04.608323+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,34 +107,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-25T06:27:41.577629+00:00",
-    "eval_count": 369,
+    "timestamp": "2026-04-25T10:45:33.213566+00:00",
+    "eval_count": 377,
     "error_count": 3,
-    "last_latency": 2.8,
+    "last_latency": 2.22,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
-        "KXHIGHCHI",
-        "KXHIGHTBOS",
-        "KXHIGHTDAL",
-        "KXHIGHAUS",
-        "KXHIGHMIA"
+        "KXHIGHCHI-26APR1"
       ],
       "widen_spread": {
-        "KXHIGHTSEA": 0.03,
-        "KXHIGHLAX": 0.02,
-        "KXHIGHPHIL": 0.02,
-        "KXHIGHTOKC": 0.03,
-        "KXHIGHTSFO": 0.02,
-        "KXHIGHTATL": 0.02,
+        "KXHIGHNY": 0.03,
+        "KXHIGHCHI": 0.04,
+        "KXHIGHTBOS": 0.03,
         "KXHIGHTDAL": 0.02,
-        "KXHIGHDEN": 0.02,
-        "KXHIGHTPHX": 0.02
+        "KXHIGHAUS": 0.02,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHPHIL": 0.02
       },
-      "notes": "Portfolio at $41.87 with 37.9% adverse rate signals strong informed trading. Skip top 6 series (NY, CHI, BOS, DAL, AUS, MIA) with 11-18 adverse fills. Widen spreads on remaining series. CPI 2d away amplifies risk."
+      "notes": "Adverse selection 37.9% \u2014 informed flow hitting us before CPI (4/10) & payrolls (5/2). Widen top 10 worst series; skip chi outlier. Revert spreads after releases."
     }
   },
-  "bot_uptime": "198h45m",
+  "bot_uptime": "202h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
