@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-26T14:55:03.394558+00:00",
+  "timestamp": "2026-04-26T18:55:04.252148+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,29 +107,27 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-26T14:31:51.755550+00:00",
-    "eval_count": 429,
+    "timestamp": "2026-04-26T18:47:08.604255+00:00",
+    "eval_count": 437,
     "error_count": 3,
-    "last_latency": 2.58,
+    "last_latency": 3.22,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI-26APR1"
+        "KXHIGHCHI",
+        "KXHIGHNY",
+        "KXHIGHAUS"
       ],
       "widen_spread": {
-        "KXHIGHNY": 0.02,
-        "KXHIGHCHI": 0.03,
-        "KXHIGHTBOS": 0.02,
-        "KXHIGHAUS": 0.02,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHPHIL": 0.02
+        "KXHIGHMIA": 0.04,
+        "KXHIGHTBOS": 0.03,
+        "KXHIGHTDC": 0.04,
+        "KXHIGHTATL": 0.03,
+        "KXHIGHPHIL": 0.03
       },
-      "notes": "37.9% adverse rate is elevated. CPI release in ~22hrs increases risk. Skip worst series (NY/CHI/BOS) showing 14-18% adverse rates. Widen spreads 1-1.5\u00a2 on high-adverse series. Weather series unaffected."
+      "notes": "High adverse rate (37.9%) across top series. Skip CHI/NY/US due to extreme adverse (16-18 worst fills). Widen spreads on MIA/BOS/DC/ATL/PHIL (11-14 adverse) to combat informed flow. Monitor CPI release 2026-04-10."
     }
   },
-  "bot_uptime": "230h45m",
+  "bot_uptime": "234h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
