@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-26T18:55:04.252148+00:00",
+  "timestamp": "2026-04-26T22:55:07.929897+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,27 +107,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-26T18:47:08.604255+00:00",
-    "eval_count": 437,
+    "timestamp": "2026-04-26T22:31:59.721631+00:00",
+    "eval_count": 444,
     "error_count": 3,
-    "last_latency": 3.22,
+    "last_latency": 4.29,
     "overrides": {
       "skip_series": [
         "KXHIGHCHI",
         "KXHIGHNY",
-        "KXHIGHAUS"
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHMIA": 0.04,
-        "KXHIGHTBOS": 0.03,
+        "KXHIGHAUS": 0.04,
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHMIA": 0.03,
         "KXHIGHTDC": 0.04,
-        "KXHIGHTATL": 0.03,
-        "KXHIGHPHIL": 0.03
+        "KXHIGHTSEA": 0.03,
+        "KXHIGHTATL": 0.02
       },
-      "notes": "High adverse rate (37.9%) across top series. Skip CHI/NY/US due to extreme adverse (16-18 worst fills). Widen spreads on MIA/BOS/DC/ATL/PHIL (11-14 adverse) to combat informed flow. Monitor CPI release 2026-04-10."
+      "notes": "High adverse rate (37.9%) driven by top 3 series. Skip worst offenders (CHI 16, NY 18, BOS 14 adverse fills). Widen spreads on remaining high-adverse series. Weather markets 6-9hrs out are normal daily rotation."
     }
   },
-  "bot_uptime": "234h45m",
+  "bot_uptime": "238h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
