@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T22:55:07.954764+00:00",
+  "timestamp": "2026-04-26T02:55:08.814084+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-25T22:26:32.738555+00:00",
-    "eval_count": 399,
+    "timestamp": "2026-04-26T02:45:46.255516+00:00",
+    "eval_count": 407,
     "error_count": 3,
-    "last_latency": 2.64,
+    "last_latency": 2.31,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI",
-        "KXHIGHNY"
+        "KXHIGHCHI-26APR1",
+        "KXHIGHNY-26APR1"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.03,
-        "KXHIGHTDAL": 0.03,
+        "KXHIGHCHI": 0.03,
+        "KXHIGHNY": 0.03,
         "KXHIGHTBOS": 0.02,
-        "KXHIGHTDC": 0.04,
-        "KXHIGHMIA": 0.03,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTDC": 0.02,
         "KXHIGHTATL": 0.02,
-        "KXHIGHTMIN": 0.02
+        "KXHIGHTSFO": 0.02,
+        "KXHIGHTPHIL": 0.01
       },
-      "notes": "KXHIGHCHI (16 adverse fills) and KXHIGHNY (18 adverse\u2014worst series) show extreme informed trader activity; skip both. Widen spreads on other high-adverse series (7\u201312 fills). Weather markets (KXHIGHTSEA, KXHIGHTSFO, KXHIGHTPHX, KXHIGHTLV) are clear. CPI/PPI/PCE/Payrolls/FOMC risk is distant (8+ days)."
+      "notes": "37.9% adverse rate is critical. CPI hits tomorrow 08:30 ET (26hrs away)\u2014widen all high-adverse NYC/CHI/BOS/DAL/MIA/DC/ATL. Skip worst performer KXHIGHCHI-26APR1. Reduce leverage ahead of econ data."
     }
   },
-  "bot_uptime": "214h45m",
+  "bot_uptime": "218h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
