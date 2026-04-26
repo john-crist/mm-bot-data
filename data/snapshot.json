@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-26T10:55:04.942460+00:00",
+  "timestamp": "2026-04-26T14:55:03.394558+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,26 +107,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-26T10:47:45.259189+00:00",
-    "eval_count": 422,
+    "timestamp": "2026-04-26T14:31:51.755550+00:00",
+    "eval_count": 429,
     "error_count": 3,
-    "last_latency": 2.5,
+    "last_latency": 2.58,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
-        "KXHIGHCHI",
-        "KXHIGHTBOS"
+        "KXHIGHCHI-26APR1"
       ],
       "widen_spread": {
+        "KXHIGHNY": 0.02,
+        "KXHIGHCHI": 0.03,
+        "KXHIGHTBOS": 0.02,
         "KXHIGHAUS": 0.02,
         "KXHIGHMIA": 0.02,
-        "KXHIGHTDC": 0.01,
-        "KXHIGHLAX": 0.01
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHPHIL": 0.02
       },
-      "notes": "KXHIGHNY (18 adverse fills), KXHIGHCHI (16), KXHIGHTBOS (14) show extreme adverse selection\u2014skip entirely. CPI on 2026-04-10 is 8 days out, low immediate risk. Widen spreads moderately on secondary high-adverse series (KXHIGHAUS 12, KXHIGHMIA 11) and tight-spread contracts."
+      "notes": "37.9% adverse rate is elevated. CPI release in ~22hrs increases risk. Skip worst series (NY/CHI/BOS) showing 14-18% adverse rates. Widen spreads 1-1.5\u00a2 on high-adverse series. Weather series unaffected."
     }
   },
-  "bot_uptime": "226h45m",
+  "bot_uptime": "230h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
