@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T06:55:01.869490+00:00",
+  "timestamp": "2026-04-27T10:55:04.335791+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,27 +107,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-27T06:29:21.058000+00:00",
-    "eval_count": 459,
+    "timestamp": "2026-04-27T10:39:01.460533+00:00",
+    "eval_count": 467,
     "error_count": 3,
-    "last_latency": 2.36,
+    "last_latency": 2.6,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
         "KXHIGHCHI",
+        "KXHIGHNY",
         "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.03,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTSEA": 0.02,
+        "KXHIGHAUS": 0.02,
         "KXHIGHTDAL": 0.02,
-        "KXHIGHTDC": 0.02
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTOKC": 0.01,
+        "KXHIGHPHIL": 0.01
       },
-      "notes": "High adverse rates (37.9% overall) driven by NY, CHI, BOS. Skip top 3 offenders. Widen on secondary high-adverse series. Weather fundamentals stable; economic calendar clear until Apr 10 CPI."
+      "notes": "Top 3 series (CHI 16, NY 18, BOS 14 adverse fills) are severely picked off \u2014 skip entirely. Widen moderately on secondary high-adverse series (8-12%). No econ data imminent before next 7 days."
     }
   },
-  "bot_uptime": "246h45m",
+  "bot_uptime": "250h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
