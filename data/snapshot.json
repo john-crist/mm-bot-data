@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-26T22:55:07.929897+00:00",
+  "timestamp": "2026-04-27T02:55:04.691130+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-26T22:31:59.721631+00:00",
-    "eval_count": 444,
+    "timestamp": "2026-04-27T02:46:08.987522+00:00",
+    "eval_count": 452,
     "error_count": 3,
-    "last_latency": 4.29,
+    "last_latency": 3.04,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI",
         "KXHIGHNY",
-        "KXHIGHTBOS"
+        "KXHIGHCHI",
+        "KXHIGHTBOS",
+        "KXHIGHTDAL",
+        "KXHIGHAUS"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.04,
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHMIA": 0.03,
-        "KXHIGHTDC": 0.04,
-        "KXHIGHTSEA": 0.03,
-        "KXHIGHTATL": 0.02
+        "KXHIGHMIA": 0.04,
+        "KXHIGHTDC": 0.05,
+        "KXHIGHDEN": 0.06,
+        "KXHIGHTMIN": 0.03,
+        "KXHIGHTSEA": 0.04
       },
-      "notes": "High adverse rate (37.9%) driven by top 3 series. Skip worst offenders (CHI 16, NY 18, BOS 14 adverse fills). Widen spreads on remaining high-adverse series. Weather markets 6-9hrs out are normal daily rotation."
+      "notes": "Top 5 adverse series (NY, CHI, BOS, DAL, AUS all >12% adverse rate) skipped to reduce pick-off risk. Remaining series widened proportionally to residual adverse rates. CPI in 2 days warrants caution on macro-sensitive weather volatility."
     }
   },
-  "bot_uptime": "238h45m",
+  "bot_uptime": "242h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
