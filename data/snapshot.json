@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T14:55:05.849801+00:00",
+  "timestamp": "2026-04-27T18:55:06.335672+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,24 +107,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-27T14:50:33.496655+00:00",
-    "eval_count": 475,
+    "timestamp": "2026-04-27T18:32:16.584028+00:00",
+    "eval_count": 482,
     "error_count": 3,
-    "last_latency": 2.31,
+    "last_latency": 2.36,
     "overrides": {
-      "skip_series": [],
+      "skip_series": [
+        "KXHIGHNY",
+        "KXHIGHCHI",
+        "KXHIGHTBOS",
+        "KXHIGHTDAL",
+        "KXHIGHAUS"
+      ],
       "widen_spread": {
-        "KXHIGHNY": 0.03,
-        "KXHIGHCHI": 0.03,
-        "KXHIGHTBOS": 0.02,
-        "KXHIGHAUS": 0.02,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTDAL": 0.02
+        "KXHIGHMIA": 0.03,
+        "KXHIGHPHIL": 0.02,
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTTSEA": 0.02
       },
-      "notes": "37.9% adverse rate is elevated. NY/CHI/BOS show highest adverse counts (18/16/14). Widen spreads on top offenders to reduce pick-off risk. No imminent econ data within 3 days; weather markets are fundamentally slow-moving."
+      "notes": "37.9% adverse rate is critical. Top 5 series (NY, CHI, BOS, DAL, US) show 7-18 adverse fills each. Skip highest-risk. Widen spreads on secondary offenders. No imminent econ data justifies pause."
     }
   },
-  "bot_uptime": "254h45m",
+  "bot_uptime": "258h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
