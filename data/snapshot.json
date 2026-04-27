@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T18:55:06.335672+00:00",
+  "timestamp": "2026-04-27T22:55:07.423374+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,27 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-27T18:32:16.584028+00:00",
-    "eval_count": 482,
+    "timestamp": "2026-04-27T22:47:35.476620+00:00",
+    "eval_count": 490,
     "error_count": 3,
-    "last_latency": 2.36,
+    "last_latency": 2.46,
     "overrides": {
       "skip_series": [
+        "KXHIGHCHI-26APR1",
         "KXHIGHNY",
         "KXHIGHCHI",
-        "KXHIGHTBOS",
-        "KXHIGHTDAL",
-        "KXHIGHAUS"
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHMIA": 0.03,
-        "KXHIGHPHIL": 0.02,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTTSEA": 0.02
+        "KXHIGHAUS": 0.03,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHTSEA": 0.02
       },
-      "notes": "37.9% adverse rate is critical. Top 5 series (NY, CHI, BOS, DAL, US) show 7-18 adverse fills each. Skip highest-risk. Widen spreads on secondary offenders. No imminent econ data justifies pause."
+      "notes": "37.9% adverse rate is critical. Skip worst 4 series (NY, CHI, BOS show 16-18 adverse fills). Widen top 4 runners-up by 2-3\u00a2. All candidates have 6-33h buffers from next econ data (CPI in 4d+)."
     }
   },
-  "bot_uptime": "258h45m",
+  "bot_uptime": "262h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
