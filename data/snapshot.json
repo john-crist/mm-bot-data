@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T18:55:07.475950+00:00",
+  "timestamp": "2026-04-28T22:55:07.368967+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,29 +107,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-28T18:52:10.333274+00:00",
-    "eval_count": 528,
+    "timestamp": "2026-04-28T22:35:08.968574+00:00",
+    "eval_count": 535,
     "error_count": 3,
-    "last_latency": 5.27,
+    "last_latency": 2.26,
     "overrides": {
       "skip_series": [
+        "KXHIGHCHI-26APR1",
         "KXHIGHNY",
         "KXHIGHCHI",
         "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.03,
+        "KXHIGHAUS": 0.02,
         "KXHIGHMIA": 0.02,
-        "KXHIGHTDAL": 0.02,
-        "KXHIGHPHIL": 0.02,
         "KXHIGHTDC": 0.02,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHTSEA": 0.02
+        "KXHIGHTSEA": 0.03,
+        "KXHIGHTPHX": 0.02,
+        "KXHIGHPHIL": 0.03
       },
-      "notes": "High adverse rate (37.9%) driven by NY, CHI, BOS with 16-18% rates\u2014skip these. Widen spreads on next-worst series (11-12% adverse). CPI/PPI/payrolls in 7d window increases volatility risk."
+      "notes": "High adverse rate (37.9%) driven by NY/CHI/BOS. Skip worst offenders. Widen spreads on elevated adverse series (11-14% rate). Neutral: CPI/PPI 5-7 days out, no immediate action needed."
     }
   },
-  "bot_uptime": "282h45m",
+  "bot_uptime": "286h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
