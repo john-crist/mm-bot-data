@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T02:55:07.021207+00:00",
+  "timestamp": "2026-04-28T06:55:03.510512+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,30 +107,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-28T02:31:32.310694+00:00",
-    "eval_count": 497,
+    "timestamp": "2026-04-28T06:45:51.121486+00:00",
+    "eval_count": 505,
     "error_count": 3,
-    "last_latency": 2.36,
+    "last_latency": 3.01,
     "overrides": {
       "skip_series": [
         "KXHIGHCHI",
-        "KXHIGHNY"
+        "KXHIGHNY",
+        "KXHIGHTBOS",
+        "KXHIGHAUS"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.02,
-        "KXHIGHTDAL": 0.02,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHLAX": 0.01,
-        "KXHIGHTDC": 0.01,
-        "KXHIGHTSEA": 0.01,
-        "KXHIGHPHIL": 0.01,
-        "KXHIGHTPHX": 0.01,
-        "KXHIGHTPNOLA": 0.01
+        "KXHIGHMIA": 0.03,
+        "KXHIGHTDC": 0.04,
+        "KXHIGHTSEA": 0.03,
+        "KXHIGHPHIL": 0.04,
+        "KXHIGHTOKC": 0.03,
+        "KXHIGHTLV": 0.02,
+        "KXHIGHTSATX": 0.02
       },
-      "notes": "NY & CHI have extreme adverse rates (18 & 16 fills). CPI on 4/10 adds pressure. Widen spreads on secondary markets with 10+ adverse fills. Low OI + tight spreads on weak series increase risk."
+      "notes": "Top 4 series have severe adverse selection (16-18 fills each). Skip to stem losses. Widen spreads on medium-risk series. Weather markets (LAX, TSF) safe. No imminent data releases before 4/10."
     }
   },
-  "bot_uptime": "266h45m",
+  "bot_uptime": "270h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
