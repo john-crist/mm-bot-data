@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T10:55:04.877091+00:00",
+  "timestamp": "2026-04-28T14:55:05.643294+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,34 +107,29 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-28T10:25:31.898793+00:00",
-    "eval_count": 512,
+    "timestamp": "2026-04-28T14:37:02.143529+00:00",
+    "eval_count": 520,
     "error_count": 3,
-    "last_latency": 3.03,
+    "last_latency": 2.29,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI-26APR1",
-        "KXHIGHNY-18APR1",
-        "KXHIGHTBOS-14APR1",
-        "KXHIGHTDAL-12APR1",
-        "KXHIGHAUS-12APR1"
+        "KXHIGHNY",
+        "KXHIGHCHI",
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHCHI": 0.03,
-        "KXHIGHTBOS": 0.03,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHNY": 0.02,
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHPHIL": 0.02,
+        "KXHIGHMIA": 0.04,
+        "KXHIGHAUS": 0.03,
+        "KXHIGHTSEA": 0.03,
         "KXHIGHTDAL": 0.02,
-        "KXHIGHAUS": 0.02
+        "KXHIGHTDC": 0.02,
+        "KXHIGHPHIL": 0.02,
+        "KXHIGHTMIN": 0.02
       },
-      "notes": "37.9% adverse rate is elevated. Skip worst 5 series (adverse >12%). Widen spreads on remaining high-adverse series (7-16 adverse counts). CPI/PPI drops in ~3d create tail risk; no immediate skip needed but monitor. Weather markets (not in candidate set) remain safe."
+      "notes": "37.9% adverse rate is elevated. Top 3 series (NY, CHI, BOS) have worst adverse picks; skip entirely. Widen spreads on remaining high-adverse series. No imminent econ data in next 17 hrs."
     }
   },
-  "bot_uptime": "274h45m",
+  "bot_uptime": "278h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
