@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T22:55:07.423374+00:00",
+  "timestamp": "2026-04-28T02:55:07.021207+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,27 +107,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-27T22:47:35.476620+00:00",
-    "eval_count": 490,
+    "timestamp": "2026-04-28T02:31:32.310694+00:00",
+    "eval_count": 497,
     "error_count": 3,
-    "last_latency": 2.46,
+    "last_latency": 2.36,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI-26APR1",
-        "KXHIGHNY",
         "KXHIGHCHI",
-        "KXHIGHTBOS"
+        "KXHIGHNY"
       ],
       "widen_spread": {
-        "KXHIGHAUS": 0.03,
-        "KXHIGHMIA": 0.02,
+        "KXHIGHAUS": 0.02,
         "KXHIGHTDAL": 0.02,
-        "KXHIGHTSEA": 0.02
+        "KXHIGHMIA": 0.02,
+        "KXHIGHLAX": 0.01,
+        "KXHIGHTDC": 0.01,
+        "KXHIGHTSEA": 0.01,
+        "KXHIGHPHIL": 0.01,
+        "KXHIGHTPHX": 0.01,
+        "KXHIGHTPNOLA": 0.01
       },
-      "notes": "37.9% adverse rate is critical. Skip worst 4 series (NY, CHI, BOS show 16-18 adverse fills). Widen top 4 runners-up by 2-3\u00a2. All candidates have 6-33h buffers from next econ data (CPI in 4d+)."
+      "notes": "NY & CHI have extreme adverse rates (18 & 16 fills). CPI on 4/10 adds pressure. Widen spreads on secondary markets with 10+ adverse fills. Low OI + tight spreads on weak series increase risk."
     }
   },
-  "bot_uptime": "262h45m",
+  "bot_uptime": "266h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
