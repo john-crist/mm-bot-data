@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T10:55:04.107895+00:00",
+  "timestamp": "2026-04-29T14:55:05.558199+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,30 +107,24 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-29T10:47:44.224089+00:00",
-    "eval_count": 558,
+    "timestamp": "2026-04-29T14:30:34.779896+00:00",
+    "eval_count": 565,
     "error_count": 3,
-    "last_latency": 2.58,
+    "last_latency": 1.94,
     "overrides": {
-      "skip_series": [
-        "KXHIGHCHI",
-        "KXHIGHNY",
-        "KXHIGHTBOS",
-        "KXHIGHTDAL",
-        "KXHIGHMIA"
-      ],
+      "skip_series": [],
       "widen_spread": {
+        "KXHIGHNY": 0.03,
+        "KXHIGHCHI": 0.03,
+        "KXHIGHTBOS": 0.02,
         "KXHIGHAUS": 0.02,
-        "KXHIGHTSATX": 0.02,
-        "KXHIGHTPHX": 0.01,
-        "KXHIGHPHIL": 0.02,
-        "KXHIGHTSFO": 0.03,
-        "KXHIGHTMIN": 0.03
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTDC": 0.02
       },
-      "notes": "High adverse selection on top 5 series (18-37.9% rates). Skip highest-risk ones. Widen spreads on elevated adverse rates. Multiple econ releases Apr 10-May 7 support caution on sensitive tickers."
+      "notes": "High adverse selection (37.9%) concentrated in NY, CHI, BOS markets. Widen spreads on worst offenders; no near-term economic catalysts justify full skip. Weather markets are low-risk."
     }
   },
-  "bot_uptime": "298h45m",
+  "bot_uptime": "302h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
