@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T18:55:07.552101+00:00",
+  "timestamp": "2026-04-29T22:55:08.388668+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,30 +107,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-29T18:49:02.583474+00:00",
-    "eval_count": 573,
+    "timestamp": "2026-04-29T22:34:11.359711+00:00",
+    "eval_count": 580,
     "error_count": 3,
-    "last_latency": 5.61,
+    "last_latency": 2.35,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
         "KXHIGHCHI",
+        "KXHIGHNY",
         "KXHIGHTDAL",
-        "KXHIGHAUS",
+        "KXHIGHTSEA",
         "KXHIGHMIA"
       ],
       "widen_spread": {
-        "KXHIGHTBOS": 0.04,
-        "KXHIGHTDC": 0.03,
-        "KXHIGHTSEA": 0.03,
-        "KXHIGHTMIN": 0.05,
-        "KXHIGHTPHX": 0.04,
-        "KXHIGHPHIL": 0.02
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHTPHIL": 0.02
       },
-      "notes": "Adverse rate 37.9% is elevated. Top 5 series (NY 18%, CHI 16%, DAL 12%, AUS 12%, MIA 11%) show severe informed trader pickup \u2014 skip entirely. Moderate adverse on remaining high-OI series \u2014 widen by 2-5\u00a2. No imminent econ data risk (CPI 4/10, distant relative to expiries)."
+      "notes": "High adverse rate (37.9%) concentrated in top 5 series. Skip worst offenders: CHI/NY (16-18 adverse fills), DAL/SEA/MIA (11-12). Widen spreads on remaining high-adverse series (7-8 fills). Weather/economy data next 7d creates acute risk."
     }
   },
-  "bot_uptime": "306h45m",
+  "bot_uptime": "310h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
