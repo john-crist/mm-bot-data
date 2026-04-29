@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T02:55:05.295246+00:00",
+  "timestamp": "2026-04-29T06:55:02.871485+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,29 +107,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-29T02:47:36.551441+00:00",
-    "eval_count": 543,
+    "timestamp": "2026-04-29T06:32:07.586814+00:00",
+    "eval_count": 550,
     "error_count": 3,
-    "last_latency": 2.25,
+    "last_latency": 3.13,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI-26APR1",
-        "KXHIGHNY-26APR1"
+        "KXHIGHCHI-26APR1"
       ],
       "widen_spread": {
-        "KXHIGHCHI": 0.03,
         "KXHIGHNY": 0.03,
-        "KXHIGHTBOS": 0.02,
-        "KXHIGHTDAL": 0.02,
+        "KXHIGHCHI": 0.03,
         "KXHIGHAUS": 0.02,
+        "KXHIGHTDAL": 0.02,
         "KXHIGHMIA": 0.02,
-        "KXHIGHTDC": 0.01,
-        "KXHIGHTSEA": 0.01
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTDC": 0.02,
+        "KXHIGHTATL": 0.02,
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHPHIL": 0.02
       },
-      "notes": "High adverse rate (37.9%) on weather highs. Skip CHI & NY (worst performers). Widen spreads on top 8 offenders. CPI/PPI/PCE in 7d increases volatility risk. No immediate econ release risk."
+      "notes": "37.9% adverse rate signals informed picking. KXHIGHNY (18 adverse fills) needs +3\u00a2 spread \u2014 already at 1\u00a2. Top 10 series by adverse fills widened 2-3\u00a2. Skip worst performer. CPI/PPI/payrolls approaching; weather markets safe."
     }
   },
-  "bot_uptime": "290h45m",
+  "bot_uptime": "294h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
