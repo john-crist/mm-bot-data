@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-30T02:55:09.566842+00:00",
+  "timestamp": "2026-04-30T06:55:02.560961+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-30T02:53:06.849195+00:00",
-    "eval_count": 588,
+    "timestamp": "2026-04-30T06:36:31.800126+00:00",
+    "eval_count": 595,
     "error_count": 3,
-    "last_latency": 2.29,
+    "last_latency": 2.61,
     "overrides": {
       "skip_series": [
-        "KXHIGHNY",
-        "KXHIGHCHI",
-        "KXHIGHTBOS"
+        "KXHIGHCHI-26APR1"
       ],
       "widen_spread": {
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHMIA": 0.02,
-        "KXHIGHTMIN": 0.02,
-        "KXHIGHTSEA": 0.02,
-        "KXHIGHTDC": 0.01,
-        "KXHIGHLAX": 0.01
+        "KXHIGHNY": 0.04,
+        "KXHIGHCHI": 0.05,
+        "KXHIGHTBOS": 0.04,
+        "KXHIGHMIA": 0.03,
+        "KXHIGHAUS": 0.03,
+        "KXHIGHTDC": 0.03,
+        "KXHIGHTSEA": 0.03,
+        "KXHIGHTDAL": 0.04,
+        "KXHIGHTPHIL": 0.04,
+        "KXHIGHTTATL": 0.03
       },
-      "notes": "High adverse rate (37.9%) driven by top 3 series (NY:18%, CHI:16%, BOS:14%). Skip these. Widen spreads on remaining high-adverse series. No imminent econ releases (next is CPI Apr 10, 5+ days out)."
+      "notes": "High adverse rate (37.9%) across NY, Chicago, Boston weather series. Skip worst outlier. Widen spreads on top-10 adverse series to defend against informed traders. No imminent econ releases affect weather markets."
     }
   },
-  "bot_uptime": "314h45m",
+  "bot_uptime": "318h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
