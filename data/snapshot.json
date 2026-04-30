@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T22:55:08.388668+00:00",
+  "timestamp": "2026-04-30T02:55:09.566842+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-29T22:34:11.359711+00:00",
-    "eval_count": 580,
+    "timestamp": "2026-04-30T02:53:06.849195+00:00",
+    "eval_count": 588,
     "error_count": 3,
-    "last_latency": 2.35,
+    "last_latency": 2.29,
     "overrides": {
       "skip_series": [
-        "KXHIGHCHI",
         "KXHIGHNY",
-        "KXHIGHTDAL",
-        "KXHIGHTSEA",
-        "KXHIGHMIA"
+        "KXHIGHCHI",
+        "KXHIGHTBOS"
       ],
       "widen_spread": {
-        "KXHIGHTDC": 0.02,
-        "KXHIGHTBOS": 0.02,
-        "KXHIGHTATL": 0.02,
-        "KXHIGHTPHIL": 0.02
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTMIN": 0.02,
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTDC": 0.01,
+        "KXHIGHLAX": 0.01
       },
-      "notes": "High adverse rate (37.9%) concentrated in top 5 series. Skip worst offenders: CHI/NY (16-18 adverse fills), DAL/SEA/MIA (11-12). Widen spreads on remaining high-adverse series (7-8 fills). Weather/economy data next 7d creates acute risk."
+      "notes": "High adverse rate (37.9%) driven by top 3 series (NY:18%, CHI:16%, BOS:14%). Skip these. Widen spreads on remaining high-adverse series. No imminent econ releases (next is CPI Apr 10, 5+ days out)."
     }
   },
-  "bot_uptime": "310h45m",
+  "bot_uptime": "314h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
