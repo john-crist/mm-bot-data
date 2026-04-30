@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-30T14:55:06.173645+00:00",
+  "timestamp": "2026-04-30T18:55:05.010932+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,28 +107,26 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-30T14:35:19.145005+00:00",
-    "eval_count": 610,
+    "timestamp": "2026-04-30T18:50:37.656840+00:00",
+    "eval_count": 618,
     "error_count": 3,
-    "last_latency": 2.38,
+    "last_latency": 5.04,
     "overrides": {
-      "skip_series": [
-        "KXHIGHNY",
-        "KXHIGHCHI",
-        "KXHIGHTBOS"
-      ],
+      "skip_series": [],
       "widen_spread": {
-        "KXHIGHAUS": 0.03,
-        "KXHIGHMIA": 0.04,
-        "KXHIGHTDAL": 0.03,
-        "KXHIGHTPHX": 0.02,
-        "KXHIGHTMIN": 0.02,
-        "KXHIGHLAX": 0.02
+        "KXHIGHNY": 0.03,
+        "KXHIGHCHI": 0.03,
+        "KXHIGHTBOS": 0.02,
+        "KXHIGHTDAL": 0.02,
+        "KXHIGHMIA": 0.02,
+        "KXHIGHTSEA": 0.02,
+        "KXHIGHTATL": 0.01,
+        "KXHIGHPHIL": 0.02
       },
-      "notes": "High adverse selection (37.9%) driven by NY, CHI, BOS. Skip top 3 offenders. Widen spreads on remaining high-adverse series (12-18% rates). No imminent econ data affecting weather markets directly."
+      "notes": "High adverse selection (37.9%) concentrated in NY, CHI, BOS, DAL weather series. Widen spreads on worst offenders; no skip needed given low position risk and opportunity value. No imminent econ data release (CPI 4/10 is 5+ days out)."
     }
   },
-  "bot_uptime": "326h45m",
+  "bot_uptime": "330h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
