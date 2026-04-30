@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-30T10:55:04.072147+00:00",
+  "timestamp": "2026-04-30T14:55:06.173645+00:00",
   "balance": {
     "cash": 40.41,
     "portfolio": 0.0
@@ -107,23 +107,28 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-04-30T10:50:51.973799+00:00",
-    "eval_count": 603,
+    "timestamp": "2026-04-30T14:35:19.145005+00:00",
+    "eval_count": 610,
     "error_count": 3,
-    "last_latency": 3.19,
+    "last_latency": 2.38,
     "overrides": {
-      "skip_series": [],
+      "skip_series": [
+        "KXHIGHNY",
+        "KXHIGHCHI",
+        "KXHIGHTBOS"
+      ],
       "widen_spread": {
-        "KXHIGHCHI": 0.04,
-        "KXHIGHNY": 0.05,
-        "KXHIGHTBOS": 0.03,
         "KXHIGHAUS": 0.03,
-        "KXHIGHTSEA": 0.02
+        "KXHIGHMIA": 0.04,
+        "KXHIGHTDAL": 0.03,
+        "KXHIGHTPHX": 0.02,
+        "KXHIGHTMIN": 0.02,
+        "KXHIGHLAX": 0.02
       },
-      "notes": "High adverse selection (37.9% overall) concentrated in NYC, Chicago, Boston weather series. Widen spreads on worst offenders; no skips due to weather market structure. CPI/PPI/PCE/payrolls calendar events apply to equity/macro products, not weather."
+      "notes": "High adverse selection (37.9%) driven by NY, CHI, BOS. Skip top 3 offenders. Widen spreads on remaining high-adverse series (12-18% rates). No imminent econ data affecting weather markets directly."
     }
   },
-  "bot_uptime": "322h45m",
+  "bot_uptime": "326h45m",
   "errors_24h": 0,
   "fills_based_position_count": 173
 }
