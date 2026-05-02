@@ -1,10 +1,26 @@
 {
-  "timestamp": "2026-05-02T06:55:03.761700+00:00",
+  "timestamp": "2026-05-02T10:55:06.876847+00:00",
   "balance": {
     "cash": 32.78,
     "portfolio": 17.22
   },
   "positions": [
+    {
+      "market_id": "KXHIGHDEN-26MAY01-T63",
+      "direction": "yes",
+      "contracts": 10,
+      "cash_locked": 5.0,
+      "close_action": "sell yes",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-05-02T06:59:00Z",
+      "hours_to_close": 0
+    },
     {
       "market_id": "KXHIGHPHIL-26MAY01-B69.5",
       "direction": "yes",
@@ -51,6 +67,22 @@
       "status": "closed",
       "result": "",
       "close_time": "2026-05-02T04:59:00Z",
+      "hours_to_close": 0
+    },
+    {
+      "market_id": "KXHIGHTSEA-26MAY01-B70.5",
+      "direction": "yes",
+      "contracts": 5,
+      "cash_locked": 2.5,
+      "close_action": "sell yes",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-05-02T08:00:00Z",
       "hours_to_close": 0
     },
     {
@@ -132,42 +164,10 @@
       "result": "",
       "close_time": "2026-05-02T06:00:00Z",
       "hours_to_close": 0
-    },
-    {
-      "market_id": "KXHIGHDEN-26MAY01-T63",
-      "direction": "yes",
-      "contracts": 10,
-      "cash_locked": 0.05,
-      "close_action": "sell yes",
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
-      "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-05-02T06:59:00Z",
-      "hours_to_close": 0.1
-    },
-    {
-      "market_id": "KXHIGHTSEA-26MAY01-B70.5",
-      "direction": "yes",
-      "contracts": 5,
-      "cash_locked": 0.03,
-      "close_action": "sell yes",
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
-      "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-05-02T08:00:00Z",
-      "hours_to_close": 1.1
     }
   ],
   "position_count": 10,
-  "total_cash_locked": 20.58,
+  "total_cash_locked": 28.0,
   "resting_orders": [],
   "resting_order_count": 0,
   "recent_fills": [],
@@ -312,27 +312,26 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-05-02T06:45:23.621809+00:00",
-    "eval_count": 21,
+    "timestamp": "2026-05-02T10:36:43.095796+00:00",
+    "eval_count": 28,
     "error_count": 0,
-    "last_latency": 2.61,
+    "last_latency": 3.76,
     "overrides": {
       "skip_series": [
         "KXHIGHLAX",
         "KXHIGHTDAL",
         "KXHIGHTPHX",
         "KXHIGHTDC",
-        "KXHIGHDEN"
+        "KXHIGHNY",
+        "KXHIGHTBOS",
+        "KXHIGHDEN",
+        "KXHIGHTMIN"
       ],
-      "widen_spread": {
-        "KXHIGHTBOS": 0.04,
-        "KXHIGHNY": 0.04,
-        "KXHIGHMIA": 0.03
-      },
-      "notes": "Weather series showing 47% adverse rate, worst in LAX/DAL/PHX/DC/DEN. Skip highest-adverse. Widen on remaining weather positions. Sports markets (NBA/MLB/NHL) clear\u2014high volume near game time is normal, tight spreads justified."
+      "widen_spread": {},
+      "notes": "High adverse selection (47.2% overall, worst KXHIGHLAX-26APR3) concentrated in weather series. Skip these until adverse rate drops. Sports (MLB/NBA/NHL) show healthy OI and tight spreads\u2014safe to quote."
     }
   },
-  "bot_uptime": "11h42m",
+  "bot_uptime": "15h43m",
   "errors_24h": 0,
   "fills_based_position_count": 225
 }
