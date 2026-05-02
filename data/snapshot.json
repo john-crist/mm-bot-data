@@ -1,89 +1,137 @@
 {
-  "timestamp": "2026-05-02T02:55:08.978879+00:00",
+  "timestamp": "2026-05-02T06:55:03.761700+00:00",
   "balance": {
     "cash": 32.78,
-    "portfolio": 18.22
+    "portfolio": 17.22
   },
   "positions": [
+    {
+      "market_id": "KXHIGHPHIL-26MAY01-B69.5",
+      "direction": "yes",
+      "contracts": 10,
+      "cash_locked": 5.0,
+      "close_action": "sell yes",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-05-02T04:59:00Z",
+      "hours_to_close": 0
+    },
     {
       "market_id": "KXHIGHTSATX-26MAY01-B67.5",
       "direction": "yes",
       "contracts": 8,
-      "cash_locked": 7.96,
+      "cash_locked": 4.0,
       "close_action": "sell yes",
-      "yes_bid": 0.99,
+      "yes_bid": 0.0,
       "yes_ask": 1.0,
       "no_bid": 0.0,
-      "no_ask": 0.01,
-      "midpoint": 0.995,
-      "status": "active",
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
       "result": "",
       "close_time": "2026-05-02T06:00:00Z",
-      "hours_to_close": 3.1
+      "hours_to_close": 0
+    },
+    {
+      "market_id": "KXHIGHMIA-26MAY01-T91",
+      "direction": "yes",
+      "contracts": 8,
+      "cash_locked": 4.0,
+      "close_action": "sell yes",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-05-02T04:59:00Z",
+      "hours_to_close": 0
+    },
+    {
+      "market_id": "KXHIGHTDC-26MAY01-B68.5",
+      "direction": "yes",
+      "contracts": 4,
+      "cash_locked": 2.0,
+      "close_action": "sell yes",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-05-02T05:00:00Z",
+      "hours_to_close": 0
     },
     {
       "market_id": "KXHIGHTBOS-26MAY01-B65.5",
       "direction": "yes",
       "contracts": 4,
-      "cash_locked": 3.98,
+      "cash_locked": 2.0,
       "close_action": "sell yes",
-      "yes_bid": 0.99,
+      "yes_bid": 0.0,
       "yes_ask": 1.0,
       "no_bid": 0.0,
-      "no_ask": 0.01,
-      "midpoint": 0.995,
-      "status": "active",
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
       "result": "",
       "close_time": "2026-05-02T05:00:00Z",
-      "hours_to_close": 2.1
+      "hours_to_close": 0
     },
     {
       "market_id": "KXHIGHPHIL-26MAY01-B67.5",
       "direction": "no",
       "contracts": 3,
-      "cash_locked": 2.98,
+      "cash_locked": 1.5,
       "close_action": "sell no",
       "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
       "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
+      "midpoint": 0.5,
+      "status": "closed",
       "result": "",
       "close_time": "2026-05-02T04:59:00Z",
-      "hours_to_close": 2.1
+      "hours_to_close": 0
+    },
+    {
+      "market_id": "KXHIGHTOKC-26MAY01-B69.5",
+      "direction": "no",
+      "contracts": 2,
+      "cash_locked": 1.0,
+      "close_action": "sell no",
+      "yes_bid": 0.0,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
+      "no_ask": 1.0,
+      "midpoint": 0.5,
+      "status": "closed",
+      "result": "",
+      "close_time": "2026-05-02T06:00:00Z",
+      "hours_to_close": 0
     },
     {
       "market_id": "KXHIGHTNOLA-26MAY01-B70.5",
       "direction": "no",
       "contracts": 2,
-      "cash_locked": 1.99,
+      "cash_locked": 1.0,
       "close_action": "sell no",
       "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
+      "yes_ask": 1.0,
+      "no_bid": 0.0,
       "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
+      "midpoint": 0.5,
+      "status": "closed",
       "result": "",
       "close_time": "2026-05-02T06:00:00Z",
-      "hours_to_close": 3.1
-    },
-    {
-      "market_id": "KXHIGHPHIL-26MAY01-B69.5",
-      "direction": "yes",
-      "contracts": 10,
-      "cash_locked": 0.05,
-      "close_action": "sell yes",
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
-      "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-05-02T04:59:00Z",
-      "hours_to_close": 2.1
+      "hours_to_close": 0
     },
     {
       "market_id": "KXHIGHDEN-26MAY01-T63",
@@ -99,23 +147,7 @@
       "status": "active",
       "result": "",
       "close_time": "2026-05-02T06:59:00Z",
-      "hours_to_close": 4.1
-    },
-    {
-      "market_id": "KXHIGHMIA-26MAY01-T91",
-      "direction": "yes",
-      "contracts": 8,
-      "cash_locked": 0.04,
-      "close_action": "sell yes",
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
-      "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-05-02T04:59:00Z",
-      "hours_to_close": 2.1
+      "hours_to_close": 0.1
     },
     {
       "market_id": "KXHIGHTSEA-26MAY01-B70.5",
@@ -131,43 +163,11 @@
       "status": "active",
       "result": "",
       "close_time": "2026-05-02T08:00:00Z",
-      "hours_to_close": 5.1
-    },
-    {
-      "market_id": "KXHIGHTDC-26MAY01-B68.5",
-      "direction": "yes",
-      "contracts": 4,
-      "cash_locked": 0.02,
-      "close_action": "sell yes",
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "no_bid": 0.99,
-      "no_ask": 1.0,
-      "midpoint": 0.005,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-05-02T05:00:00Z",
-      "hours_to_close": 2.1
-    },
-    {
-      "market_id": "KXHIGHTOKC-26MAY01-B69.5",
-      "direction": "no",
-      "contracts": 2,
-      "cash_locked": 0.01,
-      "close_action": "sell no",
-      "yes_bid": 0.99,
-      "yes_ask": 1.0,
-      "no_bid": 0.0,
-      "no_ask": 0.01,
-      "midpoint": 0.995,
-      "status": "active",
-      "result": "",
-      "close_time": "2026-05-02T06:00:00Z",
-      "hours_to_close": 3.1
+      "hours_to_close": 1.1
     }
   ],
   "position_count": 10,
-  "total_cash_locked": 17.11,
+  "total_cash_locked": 20.58,
   "resting_orders": [],
   "resting_order_count": 0,
   "recent_fills": [],
@@ -179,11 +179,11 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_24h": {
-    "fills": 4,
+    "fills": 0,
     "buys": 0,
-    "sells": 4,
-    "pnl": -0.05,
-    "fill_rate_per_hour": 0.17
+    "sells": 0,
+    "pnl": 0.0,
+    "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
     "fills": 152,
@@ -312,10 +312,10 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-05-02T02:51:08.703449+00:00",
-    "eval_count": 14,
+    "timestamp": "2026-05-02T06:45:23.621809+00:00",
+    "eval_count": 21,
     "error_count": 0,
-    "last_latency": 2.52,
+    "last_latency": 2.61,
     "overrides": {
       "skip_series": [
         "KXHIGHLAX",
@@ -325,15 +325,14 @@
         "KXHIGHDEN"
       ],
       "widen_spread": {
-        "KXHIGHTBOS": 0.02,
-        "KXHIGHNY": 0.02,
-        "KXHIGHTATL": 0.01,
-        "KXHIGHTSFO": 0.01
+        "KXHIGHTBOS": 0.04,
+        "KXHIGHNY": 0.04,
+        "KXHIGHMIA": 0.03
       },
-      "notes": "High adverse rate (47.2%) on weather highs indicates informed picking. Skip worst-hit series (DAL, PHX, DC, DEN, LAX). Widen on others with 4-5 adverse fills. Sports (NBA/MLB/NHL) clean\u2014quote normally."
+      "notes": "Weather series showing 47% adverse rate, worst in LAX/DAL/PHX/DC/DEN. Skip highest-adverse. Widen on remaining weather positions. Sports markets (NBA/MLB/NHL) clear\u2014high volume near game time is normal, tight spreads justified."
     }
   },
-  "bot_uptime": "7h43m",
+  "bot_uptime": "11h42m",
   "errors_24h": 0,
   "fills_based_position_count": 225
 }
