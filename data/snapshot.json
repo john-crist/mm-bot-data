@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-02T14:55:05.700820+00:00",
+  "timestamp": "2026-05-02T18:55:06.643615+00:00",
   "balance": {
     "cash": 49.78,
     "portfolio": 0.0
@@ -151,30 +151,30 @@
     }
   },
   "advisor": {
-    "timestamp": "2026-05-02T14:24:18.236232+00:00",
-    "eval_count": 35,
-    "error_count": 0,
-    "last_latency": 2.32,
+    "timestamp": "2026-05-02T18:12:17.893081+00:00",
+    "eval_count": 41,
+    "error_count": 1,
+    "last_latency": 2.31,
     "overrides": {
       "skip_series": [
-        "KXHIGHLAX",
-        "KXHIGHTDAL",
-        "KXHIGHTPHX",
-        "KXHIGHTDC",
         "KXHIGHNY",
-        "KXHIGHTBOS",
-        "KXHIGHDEN",
-        "KXHIGHTMIN",
-        "KXHIGHTATL",
-        "KXHIGHTSFO",
         "KXHIGHCHI",
-        "KXHIGHMIA"
+        "KXHIGHAUS",
+        "KXHIGHMIA",
+        "KXHIGHTSATX",
+        "KXHIGHTDAL",
+        "KXHIGHTMIN",
+        "KXHIGHLAX"
       ],
-      "widen_spread": {},
-      "notes": "Weather series (KXHIGH*) showing 47.2% adverse rate across all major cities \u2014 classic informed picking. Skip all weather. Sports (KXMLBGAME, KXNBAGAME, KXNHLGAME) safe \u2014 high volume near game time is normal. No economic data releases in next 18h."
+      "widen_spread": {
+        "KXNBAGAME": 0.04,
+        "KXMLBGAME": 0.02,
+        "KXNHLGAME": 0.02
+      },
+      "notes": "High adverse rate (47.2%) driven by weather series\u2014skip top offenders. Sports games have decent OI but modest spread already; widen slightly as precaution. Economic calendar clear until Apr 10 CPI."
     }
   },
-  "bot_uptime": "19h43m",
+  "bot_uptime": "0h34m",
   "errors_24h": 0,
   "fills_based_position_count": 225
 }
