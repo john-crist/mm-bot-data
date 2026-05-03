@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-03T06:55:02.988165+00:00",
+  "timestamp": "2026-05-03T10:55:05.224677+00:00",
   "balance": {
     "cash": 49.78,
     "portfolio": 0.0
@@ -174,7 +174,7 @@
       "notes": "High adverse rate (47.2%) driven by weather series\u2014skip top offenders. Sports games have decent OI but modest spread already; widen slightly as precaution. Economic calendar clear until Apr 10 CPI."
     }
   },
-  "bot_uptime": "12h34m",
+  "bot_uptime": "16h34m",
   "errors_24h": 0,
   "fills_based_position_count": 225
 }
