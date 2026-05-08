@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-07T22:55:07.165045+00:00",
+  "timestamp": "2026-05-08T02:55:07.287272+00:00",
   "balance": {
     "cash": 49.78,
     "portfolio": 0.0
@@ -25,19 +25,19 @@
     "fill_rate_per_hour": 0.0
   },
   "fills_7d": {
-    "fills": 34,
-    "buys": 12,
-    "sells": 22,
-    "pnl": 0.46,
-    "fill_rate_per_hour": 0.2
+    "fills": 4,
+    "buys": 0,
+    "sells": 4,
+    "pnl": -0.05,
+    "fill_rate_per_hour": 0.02
   },
   "fills_total": 723,
   "adverse": {
-    "total": 31,
-    "adverse": 10,
-    "rate": 32.3,
-    "worst_market": "KXHIGHTNOLA-26MAY01-B70.5",
-    "worst_count": 2
+    "total": 3,
+    "adverse": 0,
+    "rate": 0.0,
+    "worst_market": "",
+    "worst_count": 0
   },
   "paused_markets": [],
   "round_trips": 0,
@@ -141,7 +141,7 @@
       "notes": "High adverse rate (47.2%) driven by weather series\u2014skip top offenders. Sports games have decent OI but modest spread already; widen slightly as precaution. Economic calendar clear until Apr 10 CPI."
     }
   },
-  "bot_uptime": "90h37m",
-  "errors_24h": 9,
+  "bot_uptime": "94h37m",
+  "errors_24h": 0,
   "fills_based_position_count": 225
 }
