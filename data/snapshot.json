@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-12T10:55:01.631833+00:00",
+  "timestamp": "2026-05-12T14:55:01.845448+00:00",
   "balance": {
     "cash": 49.78,
     "portfolio": 0.0
@@ -150,7 +150,7 @@
       "notes": "Advisor disabled 2026-05-02"
     }
   },
-  "bot_uptime": "52h59m",
+  "bot_uptime": "56h59m",
   "errors_24h": 0,
   "fills_based_position_count": 225
 }
