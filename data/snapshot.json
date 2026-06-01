@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-31T10:55:04.049754+00:00",
+  "timestamp": "2026-06-01T06:55:01.579950+00:00",
   "balance": {
     "cash": 49.78,
     "portfolio": 0.0
@@ -41,6 +41,19 @@
   },
   "paused_markets": [],
   "round_trips": 0,
+  "sports_shadow": {
+    "settled": 30,
+    "wins": 29,
+    "losses": 1,
+    "win_rate": 96.7,
+    "target": 50,
+    "remaining": 20,
+    "open_undecided": 0,
+    "last_loss": {
+      "ticker": "KXMLBGAME-26MAY151840PHIPIT-PIT",
+      "ts": "2026-05-15 18:12:52"
+    }
+  },
   "config": {
     "strategy": {
       "min_spread_width": 0.02,
@@ -124,6 +137,9 @@
       "max_bet_usd": 1.0,
       "max_positions": 5,
       "max_total_deployed": 5.0,
+      "allowed_sports": [
+        "baseball/mlb"
+      ],
       "sport_leads": {
         "basketball/nba": 8,
         "hockey/nhl": 2,
@@ -136,7 +152,7 @@
         "baseball/mlb": 0,
         "football/nfl": 300
       },
-      "_notes": "Shadow mode 2026-05-01. ESPN end-of-game detection: buy YES on decided games where market hasn't fully repriced. Same microstructure edge as near-close weather. Historical fills showed KXNBAGAME +$26.32, KXMLBGAME +$60.31 in old spread-capture era (accidental capture of this edge). Review alongside near-close NO on 2026-05-07."
+      "_notes": "Shadow mode 2026-05-01. Review 2026-05-31 (data/review_may31_2026-05-31.txt): 38 settled, 89.5% win rate (failed 90% D1), 38<50 sample gate, 4 pre-fix reversal losses (D2). CANNOT PROMOTE. MLB sub-strategy strong (29/30, 97%); its one loss was the 2026-05-15 PHI top-9th comeback now blocked by the tightened baseball filter (espn.py). NBA 3/5 + NHL 2/3 thresholds proven too loose -> scoped OUT via allowed_sports until they get a baseball-style game-state filter; seasons ending anyway. EXTENDED shadow MLB-only, target 50 settled MLB decisions, hard deadline 2026-06-30. No live capital until clean MLB window hits 50 settled, win rate >=90%, zero post-fix reversals."
     }
   },
   "advisor": {
@@ -150,7 +166,7 @@
       "notes": "Advisor disabled 2026-05-02"
     }
   },
-  "bot_uptime": "offline",
+  "bot_uptime": "2h30m",
   "errors_24h": 0,
   "fills_based_position_count": 225
 }

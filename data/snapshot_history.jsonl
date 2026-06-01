@@ -341,3 +341,4 @@
 {"timestamp": "2026-05-31T02:55:05.447029+00:00", "portfolio": 0.0, "cash": 49.78, "position_count": 0, "round_trips": 0, "pnl_24h": 0.0, "fills_24h": 0, "adverse_rate": 0.0}
 {"timestamp": "2026-05-31T06:55:01.791453+00:00", "portfolio": 0.0, "cash": 49.78, "position_count": 0, "round_trips": 0, "pnl_24h": 0.0, "fills_24h": 0, "adverse_rate": 0.0}
 {"timestamp": "2026-05-31T10:55:04.049754+00:00", "portfolio": 0.0, "cash": 49.78, "position_count": 0, "round_trips": 0, "pnl_24h": 0.0, "fills_24h": 0, "adverse_rate": 0.0}
+{"timestamp": "2026-06-01T06:55:01.579950+00:00", "portfolio": 0.0, "cash": 49.78, "position_count": 0, "round_trips": 0, "pnl_24h": 0.0, "fills_24h": 0, "adverse_rate": 0.0, "mlb_shadow_settled": 30, "mlb_shadow_wins": 29}
