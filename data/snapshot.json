@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-02T22:55:05.927935+00:00",
+  "timestamp": "2026-06-03T02:55:07.101639+00:00",
   "balance": {
     "cash": 49.78,
     "portfolio": 0.0
@@ -42,12 +42,12 @@
   "paused_markets": [],
   "round_trips": 0,
   "sports_shadow": {
-    "settled": 30,
-    "wins": 29,
+    "settled": 32,
+    "wins": 31,
     "losses": 1,
-    "win_rate": 96.7,
+    "win_rate": 96.9,
     "target": 50,
-    "remaining": 20,
+    "remaining": 18,
     "open_undecided": 0,
     "last_loss": {
       "ticker": "KXMLBGAME-26MAY151840PHIPIT-PIT",
@@ -166,7 +166,7 @@
       "notes": "Advisor disabled 2026-05-02"
     }
   },
-  "bot_uptime": "42h30m",
+  "bot_uptime": "46h30m",
   "errors_24h": 0,
   "fills_based_position_count": 225
 }
