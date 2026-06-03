@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T14:55:05.502515+00:00",
+  "timestamp": "2026-06-03T18:55:07.410747+00:00",
   "balance": {
     "cash": 49.78,
     "portfolio": 0.0
@@ -130,7 +130,7 @@
       "_notes": "Shadow mode 2026-04-30. Market microstructure strategy: buy NO on BETWEEN weather contracts within 4h of close. Based on 852 settled BETWEEN decisions showing 88% NO resolution in 0-4h window, +$6.21 PnL vs -$17.57 at 4h+. No model required. Review target: 2026-05-07."
     },
     "sports_endgame": {
-      "enabled": true,
+      "enabled": false,
       "shadow_mode": true,
       "min_yes_price": 0.85,
       "max_yes_price": 0.98,
@@ -166,7 +166,7 @@
       "notes": "Advisor disabled 2026-05-02"
     }
   },
-  "bot_uptime": "58h30m",
+  "bot_uptime": "62h30m",
   "errors_24h": 0,
   "fills_based_position_count": 225
 }
